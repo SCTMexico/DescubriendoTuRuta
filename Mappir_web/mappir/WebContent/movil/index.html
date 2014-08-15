@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1,width=device-width, target-densitydpi=medium-dpi" /><!--target-densitydpi=device-dpi -->
+        <!-- Plugins reference -->
+        <script src="phonegap.js"></script>
+        <!-- downloaded source files and css -->
+        <!--<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css" />-->
+        <link rel="stylesheet" href="css/jquery.mobile-1.3.2.min.css" />
+        <!--<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>-->
+        <script src="js/jquery/jquery-1.9.1.min.js"></script>
+        <script src="js/jquery/jquery.mobile-1.3.2.min.js"></script>
+        <!--<script src="http://apis.google.com/js/client.js"></script>-->
+        <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+        <script src="js/openlayers/OpenLayers.js"></script>
+        <script type='application/javascript' src='js/fastclick/fastclick.js'></script>
+        <!--<script src="http://openlayers.org/api/OpenLayers.js"></script>-->
+        <!--<script src="http://openlayers.org/api/OpenLayers.mobile.js"></script>-->
+
+        <!-- css -->
+        <link rel="stylesheet" href="css/index.css" type="text/css"/>
+        <link rel="stylesheet" href="css/style.css" type="text/css"/>
+
+        <!-- include source files here... -->
+        <script type="text/javascript" src="js/variables.js"></script>
+        <script type="text/javascript" src="js/vehicleConfig.js"></script>
+        <script type="text/javascript" src="js/savedRoutes.js"></script>
+        <script type="text/javascript" src="js/commonFunctions.js"></script>
+        <script type="text/javascript" src="js/routeConfig.js"></script>
+        <script type="text/javascript" src="js/loadSetup.js"></script>
+        <script type="text/javascript" src="js/initSetup.js"></script>
+        <script type="text/javascript" src="js/mapBase.js"></script>
+        <script type="text/javascript" src="js/editLayers.js"></script>
+        <script type="text/javascript" src="js/onMapCalls.js"></script>
+        <script type="text/javascript" src="js/details.js"></script>
+        <script type="text/javascript" src="js/report.js"></script>
+        <script type="text/javascript" src="js/contact.js"></script>
+        <script type="text/javascript" src="js/phone.js"></script>
+        <script type="text/javascript" src="js/about.js"></script>
+        <!-- to debug from phonegaps
+        <script src="http://debug.build.phonegap.com/target/target-script-min.js#anonymous"></script>
+        -->
+
+        <script type="text/javascript">
+            window.onload = function () {
+                /* http://openlayers.org/dev/OpenLayers.js*/
+                // window.location.hash = "#routepage";
+
+                $(function() {
+                    FastClick.attach(document.body);
+                });
+            }
+        </script>
+        <style>
+        </style>
+    </head>
+    <!-- *Nota: Hay elementos que se repiten en cada page como menus, navbars, popups, etc ya que en la version utilizada jquerymobile no
+        permite el uso de estos elementos fuera de los data-role="page" despues de una breve investiación se obtuvo que la
+        mejor solucion es repetir el elemento con las funciones append en commonFunctions las cuales se llaman en loadSetup.-->
+    <body>
+        <h1 id="title">Traza tu ruta</h1>
+        <div id="tags">
+            carreteras, puentes, casetas, costos
+        </div>
+        <p id="shortdesc">
+            Calcula la ruta y costos de tu viaje.
+        </p>
+        <!-- LOAD PAGE _______________________________________________________________________________________________________________________-->
+        <div data-role="page" id="loadpage">
+            <div class="appLoad">
+                <!--<div>Este aplicativo utiliza datos de internet y sus costos pueden varias dependiendo de su provedor de servicio, se recomieda utilizar wifi.</div>-->
+                <div style="margin-bottom:10px;">
+                    <span class="cargando">Cargando...</span>
+                    <span class="progressBarLabel">0%</span>
+                </div>
+                <div class="progressBar">
+                    <div class="progressBarIndicator "></div>
+                </div>
+            </div>
+        </div>
+        <!-- ROUTE PAGE _______________________________________________________________________________________________________________________-->
+        <div data-role="page" id="routepage" >
+            <div data-role="content">
+                <div class="menuHeader" id="routepageMenuDiv"></div>
+                <!-- Popup-->
+                <div data-role="popup" id="popupNotice"  style="max-width:500px;text-align: center" data-transition="none" data-position-to="origin"></div>
+                <!-- *Nota: si agregas o quitas puntos intermedios tambian cambia las funciones en routeConfig.js loadDestinationFunctions() -->
+                <!--  tambien agregar los bind change del select en  initSetup.js $(document).on('pageshow', '#routepage', function ()-->
+                <!--        adicionalmente debes agregar los input type=hidden del div llamado hiddenInputs estos se pusieron para validaciones ya que una de las validaciones que requeria el usuario no se podia hacer directa en el listview-->
+                <!--        los hidden ademas de servir de validacion se usaron tambien como fuente para la peticion web-->
+                <div data-role="fieldcontain" class="background1" id="origenDestino">
+                    <div id="origenBlock" style="margin: .5em" class="ui-grid-b">
+                        <div class="ui-block-a" style="width: 2em"><img src="img/layers/web-puntos/a.png" class="imageOrigen"></div>
+                        <div class="ui-block-b" style="padding: 0 .5em"><ul id="origen" data-inset="true" data-role="listview" data-filter="true" data-filter-reveal="true" data-filter-placeholder="De..."></ul></div>
+                        <div class="ui-block-c" style="width: 2.2em"><img src="img/switch.png" class="intercambiar-icono" onclick="switchPoint(0)"/></div>
+                    </div>
+                    <div id="select-origen" style="margin: .5em" class="ui-grid-b">
+                        <div class="ui-block-a" style="width: 2em"></div>
+                        <div class="ui-block-b" style="padding: 0 .5em"><div id="select-origenL" class="text1" onclick="addInitialSuggestions('#origen')">Historial:<span class="ui-icon ui-icon-shadow ui-icon-arrow-d" style="display: inline-block;"></span></div></div>
+                        <div class="ui-block-c" style="width: 2.2em"></div>
+                    </div>
+                    <div id="intermedioBlock-1" style="margin: .5em;" class="ui-grid-b">
+                        <div class="ui-block-a" style="width: 2em"><img id="int-image-1" src="img/layers/web-puntos/a.png" class="imageOrigen"></div>
+                        <div class="ui-block-b" style="padding: 0 .5em"><ul id="intermedio-1" data-role="listview" data-filter="true" data-filter-reveal="true" data-filter-placeholder="A..."></ul></div>
+                        <div class="ui-block-c" style="width: 2.2em"><img src="img/switch.png" class="intercambiar-icono" onclick="switchPoint(1)"/></div> <span onclick="intermediatePoint(1)" class="boton-cerrar"><img id="close-image-4" src="img/layers/web-puntos/puntos_intermedios/cerrar.png" class="imageOrigen"></span>
+
+                    </div>
+                    <div id="select-intermedio-1" style="margin: .5em" class="ui-grid-b">
+                        <div class="ui-block-a" style="width: 2em"></div>
+                        <div class="ui-block-b" style="padding: 0 .5em"><div id="select-intermedio-1L" class="text1" onclick="addInitialSuggestions('#intermedio-1')">Historial:<span class="ui-icon ui-icon-shadow ui-icon-arrow-d" style="display: inline-block;"></span></div></div>
+                        <div class="ui-block-c" style="width: 2.2em"></div>
+                    </div>
+                    <div id="intermedioBlock-2" style="margin: .5em" class="ui-grid-b">
+                        <div class="ui-block-a" style="width: 2em"><img id="int-image-2" src="img/layers/web-puntos/a.png" class="imageOrigen"></div>
+                        <div class="ui-block-b" style="padding: 0 .5em"><ul id="intermedio-2" data-role="listview" data-filter="true" data-filter-reveal="true" data-filter-placeholder="A..."></ul></div>
+                        <div class="ui-block-c" style="width: 2.2em"><img src="img/switch.png" class="intercambiar-icono" onclick="switchPoint(2)"/></div>
+                        <span onclick="intermediatePoint(2)" class="boton-cerrar"><img id="close-image-1" src="img/layers/web-puntos/puntos_intermedios/cerrar.png" class="imageOrigen"></span>
+                    </div>
+                    <div id="select-intermedio-2" style="margin: .5em" class="ui-grid-b">
+                        <div class="ui-block-a" style="width: 2em"></div>
+                        <div class="ui-block-b" style="padding: 0 .5em"><div id="select-intermedio-2L" class="text1" onclick="addInitialSuggestions('#intermedio-2')">Historial:<span class="ui-icon ui-icon-shadow ui-icon-arrow-d" style="display: inline-block;"></span></div></div>
+                        <div class="ui-block-c" style="width: 2.2em"></div>
+                    </div>
+                    <div id="intermedioBlock-3" style="margin: .5em" class="ui-grid-b">
+                        <div class="ui-block-a" style="width: 2em"><img id="int-image-3" src="img/layers/web-puntos/a.png" class="imageOrigen"></div>
+                        <div class="ui-block-b" style="padding: 0 .5em"><ul id="intermedio-3" data-role="listview" data-filter="true" data-filter-reveal="true" data-filter-placeholder="A..."></ul></div>
+                        <div class="ui-block-c" style="width: 2.2em"><img src="img/switch.png" class="intercambiar-icono" onclick="switchPoint(3)"/></div>
+                        <span onclick="intermediatePoint(3)" class="boton-cerrar"><img id="close-image-2" src="img/layers/web-puntos/puntos_intermedios/cerrar.png" class="imageOrigen"></span>
+                    </div>
+                    <div id="select-intermedio-3" style="margin: .5em" class="ui-grid-b">
+                        <div class="ui-block-a" style="width: 2em"></div>
+                        <div class="ui-block-b" style="padding: 0 .5em"><div id="select-intermedio-3L" class="text1" onclick="addInitialSuggestions('#intermedio-3')">Historial:<span class="ui-icon ui-icon-shadow ui-icon-arrow-d" style="display: inline-block;"></span></div></div>
+                        <div class="ui-block-c" style="width: 2.2em"></div>
+                    </div>
+                    <div id="intermedioBlock-4" style="margin: .5em" class="ui-grid-b">
+                        <div class="ui-block-a" style="width: 2em"><img id="int-image-4" src="img/layers/web-puntos/a.png" class="imageOrigen"></div>
+                        <div class="ui-block-b" style="padding: 0 .5em"><ul id="intermedio-4" data-role="listview" data-filter="true" data-filter-reveal="true" data-filter-placeholder="A..."></ul></div>
+                        <div class="ui-block-c" style="width: 2.2em"><img src="img/switch.png" class="intercambiar-icono" onclick="switchPoint(4)"/></div>
+                        <span onclick="intermediatePoint(4)" class="boton-cerrar"><img id="close-image-3" src="img/layers/web-puntos/puntos_intermedios/cerrar.png" class="imageOrigen"></span>
+                    </div>
+                    <div id="select-intermedio-4" style="margin: .5em" class="ui-grid-b">
+                        <div class="ui-block-a" style="width: 2em"></div>
+                        <div class="ui-block-b" style="padding: 0 .5em"><div id="select-intermedio-4L" class="text1" onclick="addInitialSuggestions('#intermedio-4')">Historial:<span class="ui-icon ui-icon-shadow ui-icon-arrow-d" style="display: inline-block;"></span></div></div>
+                        <div class="ui-block-c" style="width: 2.2em"></div>
+                    </div>
+                    <div id="destinoBlock" style="margin: .5em" class="ui-grid-b">
+                        <div class="ui-block-a" style="width: 2em"><img id="int-dest" src="img/layers/web-puntos/puntos_finales/b-v.png" class="imageOrigen"></div>
+                        <div class="ui-block-b" style="padding: 0 .5em"><ul id="destino" data-role="listview" data-filter="true" data-filter-reveal="true" data-filter-placeholder="Hasta..."></ul></div>
+                        <div class="ui-block-c" style="width: 2.2em"><img id="addIntermediatePoint" src="img/mas.png" class="imageMas" onclick="intermediatePoint(0)"/></div>
+                    </div>
+                    <div id="select-destino" style="margin: .5em" class="ui-grid-b">
+                        <div class="ui-block-a" style="width: 2em"></div>
+                        <div class="ui-block-b" style="padding: 0 .5em"><div id="select-destinoL" class="text1" onclick="addInitialSuggestions('#destino')">Historial:<span class="ui-icon ui-icon-shadow ui-icon-arrow-d" style="display: inline-block;"></span></div></div>
+                    </div>
+                    <div id="evitar" style="margin: .5em;display: none" class="ui-grid-c">
+                        <div class="ui-block-a" style="width: 2em;margin-top: .6em;">
+                            Sin:
+                        </div>
+                        <div class="ui-block-b" style="width: 7em;">
+                            <input type="checkbox" name="casetas" id="casetas" style="display: inline-block">
+                            <label for="casetas" class="casetaslabel"><div class="evitar-cont">Peajes</div></label>
+                        </div>
+                        <div class="ui-block-c" style="width: 8em;">
+                            <input type="checkbox" name="alertas" id="alertas" style="display: inline-block">
+                            <label for="alertas" class="casetaslabel"><div class="evitar-cont">Incidentes </div></label>
+                        </div>
+                    </div>
+                    <!--
+                    <div id="myLocation" style="margin: .5em;" class="ui-grid-b">
+                        <div class="ui-block-a" style="width: 2em"></div>
+                        <div class="ui-block-b" style="padding: 0 .5em;"><div style="text-align: right!important;margin-top: 5px;"><span style="color: green;" onclick="addMyLocationTo();">Mi Ubicación</span></div></div>
+                        <div class="ui-block-c" style="width: 2.2em" onclick="addMyLocationTo();"><img src="img/mylocation.png" class="myLocation-icono"/></div>
+                    </div>
+                    -->
+                    <div id="search" class="ui-grid-b text1 boton-buscar" style="margin-top: .5em;" onclick="validatePoints()">
+                        <div class="buscar-ruta-txt" style="width:90%;">Buscar Ruta <img src="img/icons/buscar.png" class="buscar-icono"></div>
+                    </div>
+                </div>
+                <div id="hiddenInputs">
+                    <input type="hidden" id="origen-h" data-info="false">
+                    <input type="hidden" id="intermedio-1-h" data-info="false">
+                    <input type="hidden" id="intermedio-2-h" data-info="false">
+                    <input type="hidden" id="intermedio-3-h" data-info="false">
+                    <input type="hidden" id="intermedio-4-h" data-info="false">
+                    <input type="hidden" id="destino-h" data-info="false">
+                </div>
+                <div id="routepageResult"></div>
+            </div>
+            <div id="news-banner" class="moving" data-role="footer" data-position="fixed" data-tap-toggle="false"><!--data-position="fixed"-->
+            </div>
+        </div>
+        <!-- DETAIL PAGE _______________________________________________________________________________________________________________________-->
+        <div data-role="page" id="detailpage" >
+            <div id="headDetails">
+                <div class="menuHeader" id="detailpageMenuDiv"></div>
+                <div class="background2" id="detailOrigenDestino"></div>
+                <div class="ui-grid-c resultTable" id="detailTable" style="padding:3%;"></div>
+                <div style="height: 3px;background: #619171;width: 100%"></div>
+            </div>
+            <div id="contentDetails" class="scroll-bar">
+                <div id="detailContent"></div>
+                <div style="padding:5px;"><span class="text2">¡Recuerda que las distancias, tiempos y gasto en combustible son aproximados!</span></div>
+            </div>
+            <div id="footDetails">
+                <div style="height: 3px;background: #619171;width: 100%"></div>
+                <div data-role="navbar" class="navMenu">
+                    <ul class="ui-grid-a noList"><!-- si se activa el boton de reportar cambiar la clase a ui-grid-b noListZ-->
+                        <li><a href="javascript:void(0);" id="saveRoute" data-theme="b" onclick="saveRoute()"><img src="img/smallHearth.png" class="image15h"><br/>Guardar ruta</a></li>
+                        <li><a href="javascript:void(0);" data-theme="b" target="_blank" id="shareButton" onclick="shareRoute()"><img src="img/smallShare.png" class="image15h"><br/>Compartir</a></li>
+                        <!--<li><a href="#reportpage" data-theme="b"><img src="img/smallReport.png" class="image15h"><br/>Reportar</a></li>-->
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- VEHICLE PAGE _______________________________________________________________________________________________________________________-->
+        <div data-role="page" id="vehiclepage" >
+            <div data-role="content">
+                <div class="menuHeader" id="vehiclepageMenuDiv"></div>
+                <div id="vehicleConfig">
+                    <label for="vehicle-type" class="select"><span class="text1">Vehículo en el que viajas:</span><br/><span class="text2"> Costo de casetas varía según vehículo. </span></label>
+                    <select name="vehicle-type" id="vehicle-type" data-theme="c" data-native-menu="false">
+                    </select>
+                    <label for="vehicle-subtype" class="select"><span class="text1">Descripción del Vehículo:</span><br/><span class="text2"> Se llena segun tu selección del tipo de vehículo. </span></label>
+                    <select name="vehicle-subtype" id="vehicle-subtype" data-theme="c" data-native-menu="false">
+                    </select>
+                    <div id="axis">
+                        <label for="vehicle-axis" class="select"><span class="text1">Número de ejes excedentes:</span><br/><span class="text2"> Aumenta en caso de que tu vehículo tenga ejes excedentes. </span></label>
+                        <input type="range" name="vehicle-axis" id="vehicle-axis" data-theme="c" value="0" min="0" max="5"/>
+                    </div>
+                    <label for="gas-type" class="select"><span class="text1">Combustible que usa el vehículo:</span><br/><span class="text2"> Típicamente es Magna. </span></label>
+                    <select name="gas-type" id="gas-type" data-theme="c" data-native-menu="false">
+                    </select>
+                    <label for="performance" class="select"><span class="text1">Rendimiento de combustible:</span><br/><span class="text2"> Escoge según tipo de vehículo. </span></label>
+                    <input type="range" name="performance" id="performance" data-theme="c" value="12" min="3" max="20"/><span>km/litro</span>
+                    <div class="ui-grid-a">
+                        <div class="ui-block-a"><a href="javascript:void(0);" data-role="button" data-theme="c" onclick="setVehicleConfig()" id="vehicle-accept">Ajustar</a></div>
+                        <div class="ui-block-b"><a href="#routepage" data-role="button" data-theme="c" id="vehicle-cancel">Cancelar</a></div>
+                    </div>
+                    <br/>
+                    <a href="javascript:void(0);" data-role="button" data-theme="c" onclick="setDefaultVehicle()" >Usar valores típicos (autom&oacutevil).</a>
+                </div>
+            </div>
+        </div>
+        <!-- REPORT PAGE _______________________________________________________________________________________________________________________-->
+        <div data-role="page" id="reportpage" >
+            <div data-role="content">
+                <div class="menuHeader" id="reportpageMenuDiv"></div>
+                <div  id="reportBlock">
+                    <label for="reportNombre" ><span style="font-weight: 900">Nombre:</span></label>
+                    <input type="text" id="reportNombre">
+                    <label for="reportEMail" ><span style="font-weight: 900">Correo:</span></label>
+                    <input type="email" id="reportEMail">
+                    <label for="reportTel" ><span style="font-weight: 900">Teléfono:</span></label>
+                    <input type="tel" id="reportTel">
+                    <label for="marker-category" class="select"><span style="font-weight: 900">¿Que incidente deseas reportar?</span><span style="color: grey; font-size: 1.4em;">*</span></label>
+                    <select name="marker-category" id="marker-category" data-native-menu="false">
+                        <option value="0">Escoge la categoría</option>
+                    </select>
+                    <div><span style="font-weight: 900">¿Que ubicación deseas utilizar?</span><span style="color: grey; font-size: 1.4em;">*</span></div>
+                    <div class="ui-grid-a">
+                        <div class="ui-block-a"><a href="javascript:void(0);" data-role="button" data-theme="c" onclick="locationReport();">Mi Ubicación</a></div>
+                        <div class="ui-block-b"><a href="javascript:void(0);" data-role="button" data-theme="c" onclick="chooseLocation();">Mapa</a></div>
+                    </div>
+                    <div><span class="text1" id="useLocationText" style="font-weight: 900"></span></div>
+                    <br/>
+                        <label for="useText" ><span style="font-weight: 900">Comentarios o información adicional.</span><span style="color: grey; font-size: 1.4em;">*</span></label>
+                    <textarea id="useText" style="min-height: 75px;"></textarea>
+                    <div style="color: grey;"><span style="font-size: 1.4em;">*</span><span style="font-size: 1em:">Campos Requeridos</span></div>
+                    <div class="ui-grid-a">
+                        <div class="ui-block-a"><a href="javascript:void(0);" data-role="button" data-theme="c" onclick="sendReport();" id="report-accept">Reportar</a></div>
+                        <div class="ui-block-b"><a href="javascript:void(0);" data-role="button" data-theme="c" onclick="cancelReport();" id="report-cancel">Cancelar</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- SAVED ROUTES PAGE _______________________________________________________________________________________________________________________-->
+        <div data-role="page" id="savedRoutespage" >
+            <div data-role="content">
+                <div class="menuHeader" id="savedRoutespageMenuDiv"></div>
+                <div id="savedRoutesBlock"></div>
+            </div>
+        </div>
+        <!-- PHONE PAGE _______________________________________________________________________________________________________________________-->
+        <div data-role="page" id="phonepage" >
+            <div data-role="content">
+                <div class="menuHeader" id="phonepageMenuDiv"></div>
+                <div id="phoneBlock"></div>
+            </div>
+        </div>
+        <!-- ABOUT PAGE _______________________________________________________________________________________________________________________-->
+        <div data-role="page" id="aboutpage" >
+            <div data-role="content">
+                <div class="menuHeader" id="aboutpageMenuDiv"></div>
+                <div id="aboutBlock"></div>
+                <div>V: 1.34.03</div><br/>
+            </div>
+        </div>
+        <!-- CONTACT PAGE _______________________________________________________________________________________________________________________-->
+        <div data-role="page" id="contactpage" >
+            <div data-role="content">
+                <div class="menuHeader" id="contactpageMenuDiv"></div>
+                <div  id="contactBlock">
+                    <label for="contactEMail" ><span style="font-weight: 900">Correo:</span><span style="color: grey; font-size: 1.4em;">*</span></label>
+                    <input type="email" id="contactEMail">
+                    <label for="contactText" ><span style="font-weight: 900">Mensaje:</span><span style="color: grey; font-size: 1.4em;">*</span></label>
+                    <textarea id="contactText" style="min-height: 75px;"></textarea>
+                    <div style="color: grey;"><span style="font-size: 1.4em;">*</span><span style="font-size: 1em:">Campos Requeridos</span></div>
+                    <div class="ui-grid-a">
+                        <div class="ui-block-a"><a href="javascript:void(0);" data-role="button" data-theme="c" onclick="sendContact();" id="contact-accept">Enviar</a></div>
+                        <div class="ui-block-b"><a href="javascript:void(0);" data-role="button" data-theme="c" onclick="cancelContact();" id="contact-cancel">Cancelar</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- MAP PAGE _______________________________________________________________________________________________________________________-->
+        <div data-role="page" id="mappage">
+            <div data-role="panel" class="menuPanelMarker" data-position="right" data-display="overlay" id="markersMenu" ><!--data-animate="false"  data-swipe-close="false"  data-dismissible="false"-->
+                <div id="allExtent" class="ui-grid-a menuElement" onclick="getAllExtent()">
+                    <div class="ui-block-a" style="width: 35px;text-align: center;"><img src="img/layers/restaurar.png" class="image35w"></div>
+                    <div class="ui-block-b"><span>Ver ruta completa</span></div>
+                </div>
+                <div id="locateMenu" class="ui-grid-a menuElement" onclick="addLocationToMap()">
+                    <div class="ui-block-a" style="width: 35px;text-align: center;"><img src="img/mapa/inicio.png" class="image35w"></div>
+                    <div class="ui-block-b"><span>Ver mi ubicación</span></div>
+                </div>
+                <!--
+                <div id="reportMapMenu" class="ui-grid-a menuElement" onclick="$.mobile.navigate('#reportpage')">
+                    <div class="ui-block-a" style="width: 35px;text-align: center;"><img src="img/menu_accidente.png" class="image35w"></div>
+                    <div class="ui-block-b"><span>Reportar incidente</span></div>
+                </div>
+                -->
+                <div class="ui-grid-a menuElement" onclick="switchLayer()">
+                    <div class="ui-block-a" style="width: 35px;text-align: center;"><img src="img/mundo-verde.png" class="image35w"></div>
+                    <div class="ui-block-b"><span id="mapLayer">Cambiar a Mapa Google Maps</span></div>
+                </div>
+                <div class="ui-grid-b menuElement">
+                    <div class="ui-block-a" style="width: 35px;text-align: center;"><img src="img/layers/clima.png" class="image35w"></div>
+                    <div class="ui-block-b" style="width: 95px"><span>Clima</span></div>
+                    <div class="ui-block-c" style="width: 55px">
+                        <select name="clima" id="clima" data-role="slider" data-mini="true" onchange="getWeather()">
+                            <option value="off">OFF</option>
+                            <option value="on">ON</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div data-role="panel" class="detailPanel" data-position="left" data-display="overlay" id="detailMenu" ><!--data-animate="false"  data-swipe-close="false"  data-dismissible="false"-->
+                <div id="headDetailsMap">
+                    <div class="background2" id="detailOrigenDestinoMap"></div>
+                    <div class="ui-grid-c resultTable" id="detailTableMap" style="padding:5px;"></div>
+                    <div style="height: 3px;background: #619171;width: 100%"></div>
+                </div>
+                <div id="contentDetailsMap" class="scroll-bar" >
+                    <div id="detailContentMap"></div>
+                    <div style="padding:5px;"><span class="text2">¡Recuerda que las distancias, tiempos y gasto en combustible son aproximados!</span></div>
+                </div>
+                <div id="footDetailsMap">
+                    <div style="height: 3px;background: #619171;width: 100%"></div>
+                    <div data-role="navbar" class="navMenu">
+                        <ul class="ui-grid-a noList"><!-- si se activa el boton de reportar cambiar la clase a ui-grid-b noListZ-->
+                            <li><a href="javascript:void(0);" id="saveRouteMap" data-theme="b" onclick="saveRoute()"><img src="img/smallHearth.png" class="image15h"><br/>Guardar ruta</a></li>
+                            <li><a href="javascript:void(0);" data-theme="b" target="_blank" id="shareButtonMap" onclick="shareRoute()"><img src="img/smallShare.png" class="image15h"><br/>Compartir</a></li>
+                           
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div data-role="popup" id="popupMapa" style="min-width: 285px;"></div>
+            <div id="mapheader" class="ui-grid-a background2" style="font-size: 1em;">
+                <div class="ui-block-a" style="width: 45px;"></div>
+                <div class="ui-block-b" id="mapdetail" style="min-height: 68px;"></div>
+            </div>
+            <div data-role="content">
+                <div id="map"></div>
+            </div>
+            <div id="mapfooter" style="font-size: 1em">
+                <div data-role="navbar" class="navMenu">
+                    <ul>
+                        <li id="routeMinus" class="ui-disabled"><a href="#" data-theme="b" onclick="switchRouteFeature('<')"><span> < Tramo</span></a></li>
+                        <li><a href="#detailMenu" data-theme="b">Indicaciones</a></li>
+                        <li id="routePlus"><a href="#" data-theme="b" onclick="switchRouteFeature('>')"><span>Tramo ></span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="zoomAlert"></div>
+            <img id="homeButton" src="img/layers/home.png" class="image35w" onclick="$.mobile.navigate('#routepage')">
+            <div class="text1" id="zoomAlertContent">Para poder ver los marcadores el zoom debe que ser mayor.</div>
+            <div id="navigation" data-role="controlgroup" data-type="vertical">
+                <a href="javascript:void(0);" data-role="button" data-icon="plus" id="plus"
+                   data-iconpos="notext"></a>
+                <a href="javascript:void(0);" data-role="button" data-icon="minus" id="minus"
+                   data-iconpos="notext"></a>
+            </div>
+            <div id="markers" data-role="controlgroup" >
+                <a href="#markersMenu" data-role="button" data-icon="markers" id="mark"
+                   data-iconpos="notext"></a>
+            </div>
+        </div>
+        <!-- POPUPS _______________________________________________________________________________________________________________________-->
+            <!-- *Nota los popus de la version de jquery utilizada deben estar anidados en la pagina (data-role= page) donde
+                        se van usar -->
+        <!-- Block UI_______________________________________________________________________________________________________________________-->
+        <div class="ui-loader-background"> </div>
+        <!-- initialize app_________________________________________________________________________________________________________________-->
+        <script type="text/javascript">
+            app.initialize();
+        </script>
+    </body>
+</html>

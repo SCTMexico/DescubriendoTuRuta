@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<system-libraries>
+    <library javadoc="http://docs.oracle.com/javaee/5/api/" path="server/lib/api.jar"/>
+    <library javadoc="http://docs.oracle.com/cd/E23943_01/apirefs.1111/e13941" path="server/lib/wls-api.jar"/>
+    <module id="javax.persistence" javadoc="http://java.sun.com/javaee/5/docs/api"/>
+    <module id="org.eclipse.persistence"/>
+    <library path="server/lib/weblogic.jar"/>
+</system-libraries>

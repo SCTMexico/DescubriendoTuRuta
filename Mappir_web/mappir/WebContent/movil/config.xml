@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--mx.sct.gob.mappir -->
+<widget id="mx.sct.gob.mappir" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Mappir</name>
+    <description>
+        Planea tu viaje con "Costos", "Ruta", "Descripciones", "Puntos de Interes" y "Advertencias de Camino" .
+    </description>
+    <author email="jflores@itweb.com.mx" href="http://www.itweb.com.mx">
+        Secretaria de Comunicaciónes y Transportes.
+    </author>
+
+    <!-- Customize your app and platform with the preference element. -->
+    <preference name="phonegap-version"           value="3.3.0" />          <!-- all: current version of PhoneGap -->
+    <preference name="target-device"              value="universal" />      <!-- all: possible values handset, tablet, or universal -->
+    <preference name="fullscreen"                 value="false" />           <!-- all: hides the status bar at the top of the screen -->
+    <preference name="Fullscreen"                 value="false" />           <!-- ios-->
+    <preference name="android-minSdkVersion"      value="10" />              <!-- android: MIN SDK version supported on the target device. MAX version is blank by default. -->
+    <preference name="android-installLocation"    value="auto" />           <!-- android: app install location. 'auto' will choose. 'internalOnly' is device memory. 'preferExternal' is SDCard. -->
+    <preference name="DisallowOverscroll"         value="true" />           <!-- ios : if you don't want the WebView to rubber-band.-->
+    <preference name="splashscreen"               value="splash" />
+    <preference name="EnableViewportScale"        value="false" />          <!-- ios: Set to true to use a viewport meta tag to either disable or restrict the range of user scaling.-->
+    <preference name="StatusBarOverlaysWebView"   value="false" />
+
+    <icon src="icon.png"/>
+     <!-- Define app icon for each platform. -->
+    <icon src="res/icon/android/icon-36-ldpi.png"   gap:platform="android"    gap:density="ldpi" />
+    <icon src="res/icon/android/icon-48-mdpi.png"   gap:platform="android"    gap:density="mdpi" />
+    <icon src="res/icon/android/icon-72-hdpi.png"   gap:platform="android"    gap:density="hdpi" />
+    <icon src="res/icon/android/icon-96-xhdpi.png"  gap:platform="android"    gap:density="xhdpi" />
+    <icon src="res/icon/ios/icon-57.png"            gap:platform="ios"        width="57" height="57" />
+    <icon src="res/icon/ios/icon-72.png"            gap:platform="ios"        width="72" height="72" />
+    <icon src="res/icon/ios/icon-57-2x.png"         gap:platform="ios"        width="114" height="114" />
+    <icon src="res/icon/ios/icon-72-2x.png"         gap:platform="ios"        width="144" height="144" />
+
+    <!-- Define app splash screen for each platform. -->
+
+    <gap:splash src="res/screen/android/screen-ldpi-portrait.png"  gap:platform="android" gap:qualifier="port-ldpi" />
+    <gap:splash src="res/screen/android/screen-mdpi-portrait.png"  gap:platform="android" gap:qualifier="port-mdpi" />
+    <gap:splash src="res/screen/android/screen-hdpi-portrait.png"  gap:platform="android" gap:qualifier="port-hdpi" />
+    <gap:splash src="res/screen/android/screen-xhdpi-portrait.png" gap:platform="android" gap:qualifier="port-xhdpi" />
+    <gap:splash src="res/screen/android/screen-ldpi-landscape.png"  gap:platform="android" gap:qualifier="land-ldpi" />
+    <gap:splash src="res/screen/android/screen-mdpi-landscape.png"  gap:platform="android" gap:qualifier="land-mdpi" />
+    <gap:splash src="res/screen/android/screen-hdpi-landscape.png"  gap:platform="android" gap:qualifier="land-hdpi" />
+    <gap:splash src="res/screen/android/screen-xhdpi-landscape.png" gap:platform="android" gap:qualifier="land-xhdpi" />
+    <gap:splash src="res/screen/ios/screen-iphone-portrait.png"    gap:platform="ios"     width="320" height="480" />
+    <gap:splash src="res/screen/ios/screen-iphone-landscape.png"    gap:platform="ios"     width="480" height="320" />
+    <gap:splash src="res/screen/ios/screen-iphone-portrait-2x.png" gap:platform="ios"     width="640" height="960" />
+    <gap:splash src="res/screen/ios/screen-iphone-landscape-2x.png" gap:platform="ios"     width="960" height="640" />
+    <gap:splash src="res/screen/ios/screen-ipad-portrait.png"      gap:platform="ios"     width="768" height="1024" />
+    <gap:splash src="res/screen/ios/screen-ipad-landscape.png"     gap:platform="ios"     width="1024" height="768" />
+
+    <!-- Plugins -->
+    <gap:plugin name="org.apache.cordova.network-information" version="0.2.7"/>
+    <gap:plugin name="org.apache.cordova.device" version="0.2.8"/>
+    <gap:plugin name="org.apache.cordova.geolocation" version="0.3.6"/>
+    <gap:plugin name="nl.x-services.plugins.socialsharing" version="4.0.1"/>
+    <gap:plugin name="org.apache.cordova.splashscreen" version="0.2.7" />
+    <gap:plugin name="org.apache.cordova.dialogs" version="0.2.6" />
+    <gap:plugin name="com.phonegap.plugin.statusbar" version="1.1.0" />
+
+    <!-- Platforms -->
+    <gap:platform name="android" />
+    <gap:platform name="ios" />
+
+    <access origin="*" />
+    <content src="index.html" />
+</widget>

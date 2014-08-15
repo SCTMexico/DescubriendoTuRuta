@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" readonly="true" id="123b388a-669f-4d22-9b2f-9d3211c0c4a3" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/loadSetup.js" afterPath="$PROJECT_DIR$/js/loadSetup.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/variables.js" afterPath="$PROJECT_DIR$/js/variables.js" />
+    </list>
+    <ignored path="movil.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="movil" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="commonFunctions.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/commonFunctions.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="544" column="80" selection-start="21907" selection-end="21907" vertical-scroll-proportion="0.0" vertical-offset="8258" max-vertical-offset="10557">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="phonegap.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/phonegap.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="loadSetup.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/loadSetup.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="49" column="14" selection-start="1647" selection-end="1647" vertical-scroll-proportion="0.0" vertical-offset="643" max-vertical-offset="3009">
+              <folding>
+                <marker date="1407276373912" expanded="false" signature="4531:4540" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery-1.9.1.min.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/jquery/jquery-1.9.1.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="25611" selection-start="89802" selection-end="89802" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="153">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OpenLayers.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/openlayers/OpenLayers.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="171" column="289" selection-start="62300" selection-end="62300" vertical-scroll-proportion="0.0" vertical-offset="2907" max-vertical-offset="24599">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mapBase.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/mapBase.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="137" column="33" selection-start="4846" selection-end="4846" vertical-scroll-proportion="0.0" vertical-offset="3009" max-vertical-offset="4998">
+              <folding>
+                <marker date="1406659147355" expanded="false" signature="8161:8173" placeholder="..." />
+                <marker date="1406659147355" expanded="false" signature="8420:8432" placeholder="..." />
+                <marker date="1406659147355" expanded="false" signature="8509:8541" placeholder="..." />
+                <marker date="1406659147355" expanded="false" signature="9080:9091" placeholder="..." />
+                <marker date="1406659147355" expanded="false" signature="9309:9320" placeholder="..." />
+                <marker date="1406659147355" expanded="false" signature="9446:9457" placeholder="..." />
+                <marker date="1406659147355" expanded="false" signature="9582:9593" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="details.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/details.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="432" column="41" selection-start="22033" selection-end="22033" vertical-scroll-proportion="0.0" vertical-offset="7212" max-vertical-offset="8772">
+              <folding>
+                <marker date="1406659057208" expanded="false" signature="686:733" placeholder="..." />
+                <marker date="1406659057208" expanded="false" signature="844:866" placeholder="..." />
+                <marker date="1406659057208" expanded="false" signature="888:907" placeholder="..." />
+                <marker date="1406659057208" expanded="false" signature="1755:1791" placeholder="..." />
+                <marker date="1406659057208" expanded="false" signature="1897:1940" placeholder="..." />
+                <marker date="1406659057208" expanded="false" signature="2051:2061" placeholder="..." />
+                <marker date="1406659057208" expanded="false" signature="2846:2873" placeholder="..." />
+                <marker date="1406659057208" expanded="false" signature="3173:3204" placeholder="..." />
+                <marker date="1406659057208" expanded="false" signature="3472:3490" placeholder="..." />
+                <marker date="1406659057208" expanded="false" signature="4307:4320" placeholder="..." />
+                <marker date="1406659057208" expanded="false" signature="4592:4605" placeholder="..." />
+                <marker date="1406659057208" expanded="false" signature="4890:4905" placeholder="..." />
+                <marker date="1406659057208" expanded="false" signature="8545:8561" placeholder="..." />
+                <marker date="1406659057208" expanded="false" signature="9762:9776" placeholder="..." />
+                <marker date="1406659057208" expanded="false" signature="11055:11102" placeholder="..." />
+                <marker date="1406659057208" expanded="false" signature="11213:11235" placeholder="..." />
+                <marker date="1406659057208" expanded="false" signature="11257:11276" placeholder="..." />
+                <marker date="1406659057208" expanded="false" signature="12130:12166" placeholder="..." />
+                <marker date="1406659057208" expanded="false" signature="12271:12321" placeholder="..." />
+                <marker date="1406659057208" expanded="false" signature="12432:12443" placeholder="..." />
+                <marker date="1406659057208" expanded="false" signature="13233:13244" placeholder="..." />
+                <marker date="1406659057208" expanded="false" signature="13544:13593" placeholder="..." />
+                <marker date="1406659057208" expanded="false" signature="13863:13881" placeholder="..." />
+                <marker date="1406659057208" expanded="false" signature="14701:14714" placeholder="..." />
+                <marker date="1406659057208" expanded="false" signature="15033:15046" placeholder="..." />
+                <marker date="1406659057208" expanded="false" signature="15343:15358" placeholder="..." />
+                <marker date="1406659057208" expanded="false" signature="19096:19112" placeholder="..." />
+                <marker date="1406659057208" expanded="false" signature="20313:20327" placeholder="..." />
+                <marker date="1406659057208" expanded="false" signature="21032:21050" placeholder="..." />
+                <marker date="1406659057208" expanded="false" signature="21067:21085" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="86" column="29" selection-start="4898" selection-end="4898" vertical-scroll-proportion="-1.2307693" vertical-offset="1430" max-vertical-offset="7089">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="initSetup.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/initSetup.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5525">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="variables.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/variables.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="92" column="19" selection-start="3036" selection-end="3036" vertical-scroll-proportion="0.0" vertical-offset="1263" max-vertical-offset="1853">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/js/mapBase.js" />
+        <option value="$PROJECT_DIR$/js/variables.js" />
+        <option value="$PROJECT_DIR$/js/commonFunctions.js" />
+        <option value="$PROJECT_DIR$/js/loadSetup.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/phonegap.js" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="784" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="movil" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="movil" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="movil" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="movil" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="movil" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="movil" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="movil" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="movil" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="movil" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="geoLocationWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../test" />
+    <property name="FullScreen" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="true" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <configuration useDefault="false">C:\Users\Desarrollo\AppData\Roaming\Subversion</configuration>
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\MappirWeb\mappir_desarrollo\WebContent\movil" />
+          <option name="myCopyRoot" value="C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\MappirWeb\mappir_desarrollo\WebContent\movil" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\MappirWeb\mappir_desarrollo\WebContent\movil" />
+          <option name="myCopyRoot" value="C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\MappirWeb\mappir_desarrollo\WebContent\movil" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="123b388a-669f-4d22-9b2f-9d3211c0c4a3" name="Default" comment="" />
+      <created>1406659068682</created>
+      <updated>1406659068682</updated>
+    </task>
+    <task id="LOCAL-00001">
+      <created>1406659174107</created>
+      <updated>1406659174107</updated>
+    </task>
+    <task id="LOCAL-00002" summary="se agrego script para el analitics del movil web">
+      <created>1406759457110</created>
+      <updated>1406759457110</updated>
+    </task>
+    <task id="LOCAL-00003">
+      <created>1406824295112</created>
+      <updated>1406824295112</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3276923" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.67230767" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32923076" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32923076" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+    <MESSAGE value="se agrego script para el analitics del movil web" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/res/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="10" selection-start="1310" selection-end="1310" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="527" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/initSetup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5525">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/variables.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="96" column="13" selection-start="3100" selection-end="3100" vertical-scroll-proportion="0.0" vertical-offset="1456" max-vertical-offset="1853">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/onConfigReady.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3791" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="10" selection-start="1310" selection-end="1310" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="527" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/initSetup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5525">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/geoLocationWeb/geo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4029" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/details.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="432" column="41" selection-start="22033" selection-end="22033" vertical-scroll-proportion="0.0" vertical-offset="7212" max-vertical-offset="8772">
+          <folding>
+            <marker date="1406659057208" expanded="false" signature="686:733" placeholder="..." />
+            <marker date="1406659057208" expanded="false" signature="844:866" placeholder="..." />
+            <marker date="1406659057208" expanded="false" signature="888:907" placeholder="..." />
+            <marker date="1406659057208" expanded="false" signature="1755:1791" placeholder="..." />
+            <marker date="1406659057208" expanded="false" signature="1897:1940" placeholder="..." />
+            <marker date="1406659057208" expanded="false" signature="2051:2061" placeholder="..." />
+            <marker date="1406659057208" expanded="false" signature="2846:2873" placeholder="..." />
+            <marker date="1406659057208" expanded="false" signature="3173:3204" placeholder="..." />
+            <marker date="1406659057208" expanded="false" signature="3472:3490" placeholder="..." />
+            <marker date="1406659057208" expanded="false" signature="4307:4320" placeholder="..." />
+            <marker date="1406659057208" expanded="false" signature="4592:4605" placeholder="..." />
+            <marker date="1406659057208" expanded="false" signature="4890:4905" placeholder="..." />
+            <marker date="1406659057208" expanded="false" signature="8545:8561" placeholder="..." />
+            <marker date="1406659057208" expanded="false" signature="9762:9776" placeholder="..." />
+            <marker date="1406659057208" expanded="false" signature="11055:11102" placeholder="..." />
+            <marker date="1406659057208" expanded="false" signature="11213:11235" placeholder="..." />
+            <marker date="1406659057208" expanded="false" signature="11257:11276" placeholder="..." />
+            <marker date="1406659057208" expanded="false" signature="12130:12166" placeholder="..." />
+            <marker date="1406659057208" expanded="false" signature="12271:12321" placeholder="..." />
+            <marker date="1406659057208" expanded="false" signature="12432:12443" placeholder="..." />
+            <marker date="1406659057208" expanded="false" signature="13233:13244" placeholder="..." />
+            <marker date="1406659057208" expanded="false" signature="13544:13593" placeholder="..." />
+            <marker date="1406659057208" expanded="false" signature="13863:13881" placeholder="..." />
+            <marker date="1406659057208" expanded="false" signature="14701:14714" placeholder="..." />
+            <marker date="1406659057208" expanded="false" signature="15033:15046" placeholder="..." />
+            <marker date="1406659057208" expanded="false" signature="15343:15358" placeholder="..." />
+            <marker date="1406659057208" expanded="false" signature="19096:19112" placeholder="..." />
+            <marker date="1406659057208" expanded="false" signature="20313:20327" placeholder="..." />
+            <marker date="1406659057208" expanded="false" signature="21032:21050" placeholder="..." />
+            <marker date="1406659057208" expanded="false" signature="21067:21085" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery/jquery-1.9.1.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="25611" selection-start="89802" selection-end="89802" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="136">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/variables.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="92" column="19" selection-start="3036" selection-end="3036" vertical-scroll-proportion="0.0" vertical-offset="1263" max-vertical-offset="1853">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/commonFunctions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="544" column="80" selection-start="21907" selection-end="21907" vertical-scroll-proportion="0.0" vertical-offset="8258" max-vertical-offset="10557">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/openlayers/OpenLayers.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="171" column="289" selection-start="62300" selection-end="62300" vertical-scroll-proportion="0.0" vertical-offset="2578" max-vertical-offset="24395">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/mapBase.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="137" column="33" selection-start="4846" selection-end="4846" vertical-scroll-proportion="0.0" vertical-offset="3009" max-vertical-offset="4998">
+          <folding>
+            <marker date="1406659147355" expanded="false" signature="8161:8173" placeholder="..." />
+            <marker date="1406659147355" expanded="false" signature="8420:8432" placeholder="..." />
+            <marker date="1406659147355" expanded="false" signature="8509:8541" placeholder="..." />
+            <marker date="1406659147355" expanded="false" signature="9080:9091" placeholder="..." />
+            <marker date="1406659147355" expanded="false" signature="9309:9320" placeholder="..." />
+            <marker date="1406659147355" expanded="false" signature="9446:9457" placeholder="..." />
+            <marker date="1406659147355" expanded="false" signature="9582:9593" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="86" column="29" selection-start="4898" selection-end="4898" vertical-scroll-proportion="-1.2307693" vertical-offset="1430" max-vertical-offset="7089">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/loadSetup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="14" selection-start="1647" selection-end="1647" vertical-scroll-proportion="0.0" vertical-offset="643" max-vertical-offset="3009">
+          <folding>
+            <marker date="1407276373912" expanded="false" signature="4531:4540" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/phonegap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

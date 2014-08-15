@@ -1,0 +1,767 @@
+/* Z mas alto 1001*/
+/*Fondo del theme C que es el default*/
+.ui-body-c, .ui-overlay-c {
+    background: #FFFFFF;
+    color: black;
+    text-shadow: none;
+}
+.menuHeader{
+    background: url(../img/back-montanas.png)repeat-x;
+    background-size: contain;
+    font-family:"Arial";
+    font-size: 1.25em;
+    color: #FFFFFF;
+    margin-top:0px;
+    padding-top: .25em;
+}
+.menuPanelMarker{
+    background: #77B48B;
+    font-family:"Arial";
+    font-size: .85em;
+    color: #FFFFFF;
+    overflow-x: hidden;
+}
+.menuPanelMarker .menuElement{
+    border-bottom: 1px solid #619171;
+    padding-left: .5em;
+    padding-top: .5em ;
+    padding-bottom: .5em;
+}
+.menuPanel{
+    background: #00853D;
+    font-family:"Arial";
+    font-size: .85em;
+    color: #FFFFFF;
+}
+.menuPanel .menuElement{
+    border-bottom: 1px solid #006D32;
+    padding-left: .5em;
+    padding-top: .5em ;
+    padding-bottom: .5em;
+}
+/*min height del content*/
+.ui-panel-content-wrap {
+    min-height: 0;
+}
+/* estilo del menu*/
+.ui-panel-inner{
+    margin-top: 0px;
+    padding:0;
+    width: 100%;
+}
+/* estilo de la barra navegadora*/
+.navMenu .ui-btn-up-b{
+    border-top: none;
+    border-right: 1px solid #ffffff;
+    border-left: 1px solid #ffffff;
+    border-bottom: none;
+    font-weight:100;
+    color:#6f8ca8;
+    text-shadow:none;
+    background:#bcd8f4 !important;
+   
+}
+.navMenu .ui-btn-hover-b , .navMenu .ui-btn-active{
+    border-top: none;
+    border-right: 1px solid #ffffff;
+    border-left: 1px solid #ffffff;
+    border-bottom: none;
+    font-weight:100;
+    color:#6f8ca8;
+    text-shadow:none;
+    background:#a4c5e5!important;
+}
+/*---------------------------------------------------------------------------------------------------------
+Progress Bar*/
+.progressBar{
+    width: 100%;
+    height: .5em;
+    background:#e9f1f9;
+    border-radius: .5em;
+    box-shadow: 0 1px 1px 0 rgba(20, 0, 0, 0.3) inset;
+}
+.progressBarIndicator{
+    width: 0%;
+    height: .5em;
+    background: #77b489;
+    overflow: hidden;
+    border-radius: .5em;
+    position: relative;
+}
+.progressBarIndicator:after{
+    content: "";
+    width: 100%;
+    height: 1.2em;
+    display: block;
+    overflow: hidden;
+    background: #77b489;
+    background-size: contain;
+}
+.progressBarLabel{
+    width: 100%;
+    height: .8em;
+    font-size: .6em;
+    color: #9e9b9b;
+    font-weight: 100;
+    text-align: center;
+}
+/*----------------------------------------------------------------------------------------------------------
+Ajusta input dentro de fieldcontain*/
+#origenDestino .ui-listview-filter{
+    margin: 0;
+    background:none!important;
+}
+#origenDestino .ui-listview-filter .ui-input-search{
+    border: 0;
+    margin: 0;
+    padding: 0 30px 0 5px;
+}
+#origenDestino .ui-bar-c{
+    background-image:none;
+}
+#origenDestino .ui-btn{
+    border: 0;
+}
+#origenDestino .ui-btn-up-c{
+    background-image: none;
+    background:#ffffff;
+    font-weight: normal;
+}
+#origenDestino .ui-btn-hover-c{
+    background-image: none;
+    background:#ffffff;
+    font-weight: normal;
+}
+#evitar{
+    /*margin-right: 25px !important;*/
+}
+#evitar .ui-icon{
+    background-color:#90905a;
+}
+
+#evitar #alertas .ui-icon{
+    background-color:#FFFFFF;
+}
+#evitar .ui-controlgroup-controls {
+    width: 100%;
+}
+#evitar .ui-btn-up-c{
+    background-image: none;
+    background:none;
+    font-weight: normal;
+    color: #ffffff;
+}
+#evitar .ui-btn-active{
+    background-image: none;
+    background:none;
+    font-weight: normal;
+    color: #ffffff;
+}
+#evitar .ui-btn-hover-c{
+    background-image: none;
+    background:none;
+    font-weight: normal;
+    color: #ffffff;
+}
+/*--------------------------------------------------------------------------------------------------------
+Ajusta el input del label */
+#origenDestino  .ui-block-a{
+    color: #00853D;
+}
+/*--------------------------------------------------------------------------------------------------------
+Ajusta el bloque de Origen Destino */
+/*
+#select-origenR-listbox-popup .ui-bar-b,#select-intermedio-1R-listbox-popup .ui-bar-b,#select-intermedio-2R-listbox-popup .ui-bar-b,#select-intermedio-3R-listbox-popup .ui-bar-b,#select-intermedio-4R-listbox-popup .ui-bar-b,#select-destinoR-listbox-popup .ui-bar-b,
+#vehicle-type-listbox-popup .ui-bar-b,#vehicle-subtype-listbox-popup .ui-bar-b,#gas-type-listbox-popup .ui-bar-b,
+#marker-category-listbox-popup .ui-bar-b,
+#select-origenR-listbox-popup .ui-btn-active,#select-intermedio-1R-listbox-popup .ui-btn-active,#select-intermedio-2R-listbox-popup .ui-btn-active,#select-intermedio-3R-listbox-popup .ui-btn-active,#select-intermedio-4R-listbox-popup .ui-btn-active,#select-destinoR-listbox-popup .ui-btn-active,
+#vehicle-type-listbox-popup .ui-btn-active,#vehicle-subtype-listbox-popup .ui-btn-active,#gas-type-listbox-popup .ui-btn-active,
+#marker-category-listbox-popup .ui-btn-active{
+    border: 1px solid #006D32;background: #00853D;color: #fff;font-weight: 700;text-shadow: 0 1px 0 #006D32;background-image: none;
+}
+#select-origenR-listbox-popup .ui-focus, #select-origenR-listbox-popup .ui-btn:focus,#select-intermedio-1R-listbox-popup .ui-focus, #select-intermedio-1R-listbox-popup .ui-btn:focus,#select-intermedio-2R-listbox-popup .ui-focus, #select-intermedio-2R-listbox-popup .ui-btn:focus,#select-intermedio-3R-listbox-popup .ui-focus, #select-intermedio-3R-listbox-popup .ui-btn:focus,#select-intermedio-4R-listbox-popup .ui-focus, #select-intermedio-4R-listbox-popup .ui-btn:focus,#select-destinoR-listbox-popup .ui-focus, #select-destinoR-listbox-popup .ui-btn:focus,
+#vehicle-type-listbox-popup .ui-focus, #vehicle-type-listbox-popup .ui-btn:focus,#vehicle-subtype-listbox-popup .ui-focus, #vehicle-subtype-listbox-popup .ui-btn:focus,#gas-type-listbox-popup .ui-focus, #gas-type-listbox-popup .ui-btn:focus,
+#marker-category-listbox-popup .ui-focus, #marker-category-listbox-popup .ui-btn:focus{
+    -moz-box-shadow: inset 0 0 3px #006D32,0 0 9px #006D32;-webkit-box-shadow: inset 0 0 3px #006D32,0 0 9px #006D32;box-shadow: inset 0 0 3px #006D32,0 0 9px #006D32;
+}*/
+#origenDestino .ui-btn-corner-all{
+    -webkit-border-radius:.25em;
+    border-radius:.25em;
+}
+#origenDestino .ui-body-c{
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+#origenDestino .ui-focus{
+    background: #FFFFFF;
+}
+.origenLoading{
+    background: url('../img/load24.gif')!important;
+    background-repeat: no-repeat!important;
+    background-color: white!important;
+    background-position: right center!important;
+}
+
+#detailMenu{
+    overflow-x: hidden !important;
+}
+/* Ajusta la etiqueta del menu de marcadores*/
+#markersMenu{
+    overflow-x: hidden !important;
+}
+#markersMenu  .ui-block-b{
+    margin-top: 1em;
+    padding-left: 5px
+}
+#markersMenu  .ui-block-a{
+    margin-top: .6em;
+    padding-left: 5px;
+    margin-right: 5px;
+}
+/* Ajusta el slider del menu de marcadores*/
+#markersMenu .ui-btn-active{
+    box-shadow: inset 1px 1px 2px 0 #41614c!important;
+    background-image: none!important;
+    background: #f8f9d9!important;
+    color: #f8f9d9!important;
+    border: none!important;
+    text-shadow:none!important;
+}
+#markersMenu .ui-btn-down-c{
+    box-shadow: inset 1px 1px 2px 0 #41614c!important;
+    background-image: none!important;
+    background: #00853D!important;
+    color: #00853D!important;
+    border: none!important;
+    text-shadow:none!important;
+}
+#markersMenu .ui-btn-up-c{
+    box-shadow:1px 1px 2px 0 #41614c!important;
+    background-image: none!important;
+    background: #ffffff!important;
+    color: #ffffff;
+    border: none!important;
+    text-shadow:none!important;
+}
+#markersMenu div.ui-slider-switch.ui-mini{
+    width:4em;
+}
+#markersMenu .ui-slider-switch.ui-mini .ui-slider-handle{
+    height: 27px;
+    width: 27px;
+}
+#origenDestino .ui-select{
+    width: 100%;
+}
+/* Ajusta los controles de la pagina de vehicle Config*/
+#vehicleConfig .ui-btn-up-c,#vehicleConfig .ui-btn-down-c,#vehicleConfig .ui-btn-active,#vehicleConfig .ui-btn-hover-c{
+    background-image: none;
+    background: #00853D;
+    border: none;
+    text-shadow: none;
+    text-decoration: none;
+    color: #ffffff;
+}
+#vehicle-accept{
+     background: #00853D!important;
+ }
+#vehicle-cancel {
+    background: #f8f9d9!important;
+    color: #00853D!important;
+}
+#vehicleConfig .ui-btn-corner-all{
+    border-radius: .5em;
+}
+#vehicle-type-dialog .ui-btn-active,#gas-type-dialog .ui-btn-active,#performance-dialog .ui-btn-active,#vehicle-type-listbox .ui-btn-active,#gas-type-listbox .ui-btn-active,#performance-listbox .ui-btn-active{
+    background-image: none;
+    background: #00853D;
+    border: none;
+    text-shadow: none;
+    text-decoration: none;
+}
+#vehicleConfig{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#reportBlock .ui-btn-up-c,#reportBlock .ui-btn-down-c,#reportBlock .ui-btn-active,#reportBlock .ui-btn-hover-c{
+    background-image: none;
+    background: #77B48B;
+    border: none;
+    text-shadow: none;
+    text-decoration: none;
+    color: #ffffff;
+}
+#contactBlock .ui-btn-up-c,#contactBlock .ui-btn-down-c,#contactBlock .ui-btn-active,#contactBlock .ui-btn-hover-c{
+    background-image: none;
+    background: #77B48B;
+    border: none;
+    text-shadow: none;
+    text-decoration: none;
+    color: #ffffff;
+}
+#report-accept{
+    background: #00853D!important;
+}
+#report-cancel{
+    background: #f8f9d9!important;
+    color: #00853D!important;
+}
+#reportBlock .ui-btn-corner-all{
+    border-radius: .5em;
+}
+#contactBlock .ui-btn-corner-all{
+    border-radius: .5em;
+}
+#marker-category-dialog .ui-btn-active,#marker-category-listbox .ui-btn-active{
+    background-image: none;
+    background: #00853D;
+    border: none;
+    text-shadow: none;
+    text-decoration: none;
+}
+#reportBlock{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#contactBlock{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+/*--------------------------------------------------------------------------------------------------------*/
+
+.text1{
+    color: #00853D;
+}
+.text2{
+    color: #808080;
+    font-size:.68em;
+}
+.text3{
+    font-weight: 900;
+    color: #808080;
+}
+.text4{
+    color: #CBCBCB;
+    font-size: .7em;
+}
+.text5{
+    color: red;
+}
+.text6{
+    color: #808080;
+    font-size: .8em;
+}
+.text7{
+    color: #77B48B;
+    font-size: .75em;
+}
+.text8{
+    color:#b5b5b5;
+    font-size: .75em;
+}
+.text9{
+    color: red;
+    padding:15px;
+    font-weight:100!important;
+    text-align:center;
+    font-size:11px;
+}
+.text10{
+    color: #ffffff;
+    font-size:.75em;
+}
+.background1{
+    background-color: #F8F9D8;
+    margin: 0 !important;
+    padding: .5em !important;
+    border-width: 0 0 1px !important;
+}
+.background2{
+    color: #ffffff;
+    font-weight: normal;
+    background-color: #77B48B;
+    width: 100%;
+    margin: 0;
+}
+.imageLogo{
+    height:35px ;
+}
+.imageOrigen{
+    vertical-align: middle !important   ;
+    width:37px !important;
+    height:37px !important;
+}
+    .image15h{
+    height:15px;
+}
+.image15w{
+    width:15px;
+}
+.image35w{
+    width: 35px;
+}
+.image35h{
+    height: 35px;
+    max-width: 50px;
+}
+.imageMas{
+    width:37px;
+}
+.imageFlecha{
+    height:42px;
+}
+.imageMenu{
+    height:20px;
+    padding-right: 1em;
+}
+/*----------------------------------------------------------------------------------------------------------
+Resultados de Rutas y Detalle*/
+.detail-sepbar{
+    width: 100%;
+}
+.detail-sepbarInn{
+    /*margin-left: 10px;margin-right: 10px;*/
+    background-color: #d8d9d9;
+    height: 2px;
+}
+.caseta{
+    background-color: #e8e8e8;;
+}
+.mainResultHeader{
+    padding: 10px;
+    background-color: #619171;
+    font-family:"Arial";
+    font-size: 1em;
+    color: #FFFFFF;
+    /*height: 35px;
+    line-height: 35px;*/
+}
+.moreResultHeader{
+    padding: 10px;
+    background-color: #77B48B;
+    font-family:"Arial";
+    font-size: 1em;
+    color: #FFFFFF;
+    /*height: 35px;
+    line-height: 35px;*/
+}
+.detailHeaderFooter{
+    color: #ffffff;
+    background-color: #77B48B;
+    font-family:"Arial";
+    font-weight: normal;
+    height: 35px;
+    line-height: 35px;
+}
+.resultTable {
+    /*border: 1px solid #00853D;*/
+    background-color: #ffffff;
+}
+.resultColumn1 {
+    text-align: right;
+    padding:2% ;
+}
+.resultBlock {
+    background-color: #F8F9D8;
+    padding-top: 7px;
+    padding-bottom: 5px;
+    padding-right:10%;
+    overflow: auto;
+}
+.ui-grid-b  .resultColumn2 {
+    min-height:83px;
+    width: 70%;
+    /*border: 1px solid #bbbbbb;
+    border-bottom: none;
+    border-left: none;*/
+    padding-left: 5px;
+    padding-top: 10px;
+    text-align: left;
+}
+.ui-grid-b .resultColumn3 {
+    min-height:83px;
+    vertical-align: middle;
+    width: 30%;
+    text-align: right;
+    padding-right: 15px;
+    padding-top: 10px;
+}
+.ui-grid-a .detailtColumn1{
+    padding-left: 5px;
+    width: 75%;
+    text-align: left;
+}
+.ui-grid-a .detailtColumn2 {
+    padding-right: 5px;
+    width: 25%;
+    text-align: right;
+}
+.ui-grid-a .detailtColumn3{
+    background-color: #F0F0F0;
+    padding-left: 5px;
+    width: 80%;
+    text-align: left;
+}
+.ui-grid-a .detailtColumn4 {
+    background-color: #F0F0F0;
+    padding-right: 5px;
+    width: 20%;
+    text-align: right;
+}
+.ui-grid-b .detailtColumn1{
+    padding-left: 5px;
+    width: 15%;
+    text-align: left;
+}
+.ui-grid-b .detailtColumn2 {
+    padding-right: 5px;
+    width: 60%;
+    text-align: left;
+}
+.ui-grid-b .detailtColumn3{
+    padding-left: 5px;
+    width: 25%;
+    text-align: right;
+}
+.b1{
+    color:#77B48B;
+    margin-bottom: 0;
+    font-weight:100;
+}
+.b2{
+    color: #808080;
+    font-style: italic;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: .75em;
+}
+.b3{
+    color: blue;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.b4{
+    color: #00853D;
+    margin-bottom: 0;
+}
+/*----------------------------------------------------------------------------------------------------------*/
+/* clase moving para el banner de noticias*/
+.moving {
+    height:40px;
+    overflow:hidden;
+    white-space:no-wrap;
+    text-align:left;
+}
+.moving span {
+    position:relative;
+    left:5px;
+    white-space:nowrap; /*this guy is important!*/
+    height: 20px;
+    max-height: 20px;
+}
+/* para el loading*/
+.loading-bar {
+    background-color: #1a1a1a;
+    height: 25px;
+    padding: 5px;
+    width: 150px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0 1px 5px #000 inset, 0 1px 0 #444;
+    -webkit-box-shadow: 0 1px 5px #000 inset, 0 1px 0 #444;
+    box-shadow: 0 1px 5px #000 inset, 0 1px 0 #444;
+}
+
+.loading-bar span {
+    display: inline-block;
+    height: 100%;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset;
+    -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset;
+    -webkit-transition: width .4s ease-in-out;
+    -moz-transition: width .4s ease-in-out;
+    -ms-transition: width .4s ease-in-out;
+    -o-transition: width .4s ease-in-out;
+    transition: width .4s ease-in-out;
+}
+.green span {
+    background-color: #a5df41;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#a5df41), to(#4ca916));
+    background-image: -webkit-linear-gradient(top, #a5df41, #4ca916);
+    background-image: -moz-linear-gradient(top, #a5df41, #4ca916);
+    background-image: -ms-linear-gradient(top, #a5df41, #4ca916);
+    background-image: -o-linear-gradient(top, #a5df41, #4ca916);
+    background-image: linear-gradient(top, #a5df41, #4ca916);
+}
+.stripes span {
+    -webkit-background-size: 30px 30px;
+    -moz-background-size: 30px 30px;
+    background-size: 30px 30px;
+    background-image: -webkit-gradient(linear, left top, right bottom,
+    color-stop(.25, rgba(255, 255, 255, .15)), color-stop(.25, transparent),
+    color-stop(.5, transparent), color-stop(.5, rgba(255, 255, 255, .15)),
+    color-stop(.75, rgba(255, 255, 255, .15)), color-stop(.75, transparent),
+    to(transparent));
+    background-image: -webkit-linear-gradient(135deg, rgba(255, 255, 255, .15) 25%, transparent 25%,
+    transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%,
+    transparent 75%, transparent);
+    background-image: -moz-linear-gradient(135deg, rgba(255, 255, 255, .15) 25%, transparent 25%,
+    transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%,
+    transparent 75%, transparent);
+    background-image: -ms-linear-gradient(135deg, rgba(255, 255, 255, .15) 25%, transparent 25%,
+    transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%,
+    transparent 75%, transparent);
+    background-image: -o-linear-gradient(135deg, rgba(255, 255, 255, .15) 25%, transparent 25%,
+    transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%,
+    transparent 75%, transparent);
+    background-image: linear-gradient(135deg, rgba(255, 255, 255, .15) 25%, transparent 25%,
+    transparent 50%, rgba(255, 255, 255, .15) 50%, rgba(255, 255, 255, .15) 75%,
+    transparent 75%, transparent);
+
+    -webkit-animation: animate-stripes 3s linear infinite;
+    -moz-animation: animate-stripes 3s linear infinite;
+}
+
+@-webkit-keyframes animate-stripes {
+    0% {background-position: 0 0;} 100% {background-position: 60px 0;}
+}
+
+@-moz-keyframes animate-stripes {
+    0% {background-position: 0 0;} 100% {background-position: 60px 0;}
+}
+/*----------------------------------------------------------------------------------------------------------*/
+.detailPanel{
+    /*
+    width: 80%;
+    */
+}
+.borderRight{
+    border-right:1px solid #619171;
+}
+
+/*manolo*/
+.cargando{
+    font-size: .6em;
+    color: #9e9b9b;
+    font-weight: 100;
+    text-align: center;
+}    
+
+.boton-buscar{
+    width:300px;
+    background-color:#77b48b ;
+    color:#FFFFFF;
+    margin: auto;
+    margin-bottom: 0;
+    -webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+}
+.buscar-ruta-txt{
+    text-align:center;
+}
+
+.casetaslabel{
+    color:#777777!important;
+    font-weight:100!important;
+    margin:0!important;  
+    padding:0!important;
+}
+.sep-h{
+    background:#cacaca;
+    height:1px;
+    width:100%;
+    position:relative;
+}
+.evitar-cont{
+    float:left;
+    position:relative;
+    margin-right:15px;
+    height:30px;
+    vertical-align:middle;
+}
+
+.buscar-icono{
+    padding: 7px !important;
+    vertical-align: middle !important   ;
+    width:20px !important;
+    height:20px !important;
+}
+.myLocation-icono{
+    padding-left: 3px !important;
+    vertical-align: middle !important;
+    width: 30px !important;
+    height: 30px;
+}
+.intercambiar-icono{
+    padding-left:5px;
+    width:30px;
+    height:30px;
+    float:left;
+    
+}
+
+.alerta{
+    color: green;
+    font-size:1.2em;
+    padding:15px;
+    font-weight:100!important;
+}
+.location{
+    color: green;
+    padding:15px;
+}
+.boton-cerrar{
+    float:left; 
+    position:absolute; 
+    /*margin-left:-15px; */
+    margin-top:-2px;
+}
+
+.pulldown-sugerencias{
+    width:37px;
+    height:38px;
+    margin-top:-30px;
+    margin-left:100px;
+    z-index:0;
+}
+.ui-select .ui-btn-icon-right .ui-icon{
+    left:9px;
+}
+
+label.ui-select{
+    margin:10px 0 -10px 0px;
+
+}
+
+.indicaciones{
+    font-size:.7em;
+    margin-top:.6em;
+    text-align:left;
+    margin-left:10px;
+}
+.olControlAttribution {
+    font-size: .7em;
+    bottom: 5px;
+    right: 5px;
+}
+.scroll-bar{
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+}
+.scroll-bar::-webkit-scrollbar {
+    width: 10px;
+}
+.scroll-bar::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+.scroll-bar::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #77B48B;
+}

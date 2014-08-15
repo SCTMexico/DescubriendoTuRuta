@@ -1,0 +1,25 @@
+ {
+     "url": {
+         "base" :"http://ttr.sct.gob.mx/mappir/movil",
+         "mapaBase" : "http://geoserver.sct.gob.mx/geoserver/gwc/service/wmts",
+         "webApp" : "http://ttr.sct.gob.mx/mappir/"
+     },
+     "servicios" : {
+         "listaDeMarcadores" : "http://ttr.sct.gob.mx/mappir/servicios/geo/obtenerTiposDeMarcadores",
+         "listaDeAdvertencias" : "http://ttr.sct.gob.mx/mappir/servicios/geo/obtenerListaDeAdvertencias",
+         "marcadoresEnMapa" : "http://ttr.sct.gob.mx/mappir/servicios/geo/obtenerMarcadores",
+         "catalogoVehiculos" : "http://ttr.sct.gob.mx/mappir/servicios/geo/obtenerVehiculos",
+         "catalogoGasolina" : "http://ttr.sct.gob.mx/mappir/servicios/geo/obtenerCombustibles",
+         "busquedaDeDestinos" : "http://ttr.sct.gob.mx/TTR/rest/GeoSearchLocationSvt",
+         "busquedaDeRuta" : "http://ttr.sct.gob.mx/TTR/rest/GeoRouteSvt",
+         "geoCodificacionInversa" : "http://ttr.sct.gob.mx/TTR/rest/ReverseGeocodeSvt",
+         "reportarAlerta":"http://ttr.sct.gob.mx/mappir/servicios/geo/repotarIncidente",
+         "obtenerContenido":"http://ttr.sct.gob.mx/mappir/servicios/geo/obtenerContenidos",
+         "captcha":"http://ttr.sct.gob.mx/mappir/captcha.png",
+         "contacto":"http://ttr.sct.gob.mx/mappir/servicios/geo/contacto"
+     },
+     "js":{
+         "serviciosGeo" :"http://ttr.sct.gob.mx/TTR/js/sctgeolib.js"
+     }
+ }
+

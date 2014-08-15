@@ -1,0 +1,293 @@
+
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+}
+
+body {
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+    background-color:#FFFFFF;
+    background-attachment:fixed;
+    font-family:'Arial';
+    font-size:1em;
+    height:100%;
+    margin:0px;
+    padding:0px;
+    width:100%;
+}
+
+/* Portrait layout (default) */
+.appLoad {
+    background:url(../img/logo.png) no-repeat center top; /* 170px x 200px */
+    background-size: contain;
+    position:absolute;             /* position in the center of the screen */
+    left:50%;
+    top:50%;
+    height:50px;                   /* text area height */
+    width:225px;                   /* text area width */
+    text-align:center;
+    padding:90px 0px 0px 0px;     /* image height is 200px (bottom 20px are overlapped with text) */
+    margin:-115px 0px 0px -112px;  /* offset vertical: half of image height and text area height */
+                                   /* offset horizontal: half of text area width */
+}
+
+/* Landscape layout (with min-width) */
+@media screen and (min-aspect-ratio: 1/1) and (min-width:400px) {
+    .app {
+        background-position:left center;
+        padding:75px 0px 75px 170px;  /* padding-top + padding-bottom + text area = image height */
+        margin:-90px 0px 0px -198px;  /* offset vertical: half of image height */
+                                      /* offset horizontal: half of image width and text area width */
+    }
+}
+
+h1 {
+    font-size:1em;
+    font-weight:normal;
+    margin:0px;
+    overflow:visible;
+    padding:0px;
+    text-align:center;
+}
+
+.event {
+    border-radius:4px;
+    -webkit-border-radius:4px;
+    color:#FFFFFF;
+    font-size:1em;
+    margin:0px 30px;
+    padding:2px 0px;
+}
+
+.event.listening {
+    background-color:#333333;
+    display:block;
+}
+
+.event.received {
+    background-color:#4B946A;
+    display:none;
+}
+
+@keyframes fade {
+    from { opacity: 1.0; }
+    50% { opacity: 0.4; }
+    to { opacity: 1.0; }
+}
+ 
+@-webkit-keyframes fade {
+    from { opacity: 1.0; }
+    50% { opacity: 0.4; }
+    to { opacity: 1.0; }
+}
+ 
+.blink {
+    animation:fade 3000ms infinite;
+    -webkit-animation:fade 3000ms infinite;
+}
+/*--------------------------------------------------------------------------------------------------------------------------------------*/
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.ui-content {
+    padding: 0;
+}
+.ui-footer {
+    text-align: center;
+    padding: 5px 0;
+}.ui-header {
+     text-align: center;
+ }
+.portrait, .portrait #mappage {
+    min-height: 0;
+}
+.portrait, .portrait .ui-page{
+    min-height: 0;
+}
+#mappage, #mappage .ui-content, #map {
+    width: 100%;
+    height: 100%;
+}
+.olControlAttribution {
+    font-size: 1em;
+    bottom: 5px;
+    right: 5px;
+}
+#navigation {
+    position: absolute;
+    bottom: 70px;
+    left: 10px;
+    z-index: 1000;
+    opacity: .7;
+    background: #77B48B;
+}
+#navigation .ui-btn-up-c,#navigation .ui-btn-active,#navigation .ui-btn-hover-c,
+#markers .ui-btn-up-c,#markers .ui-btn-active,#markers .ui-btn-hover-c,
+#locate .ui-btn-up-c,#locate .ui-btn-active,#locate .ui-btn-hover-c{
+    background: none;
+    background-image: none;
+}
+#zoomAlert {
+    position: absolute;
+    top: 80px;
+    z-index: 1000;
+    opacity: 0.7;
+    left: 1em;
+    right: 1em;
+    height: 30px;
+    /*background-color: #FFFF00;*/
+    background-color: #FFFFFF;
+    margin: 0;
+    border-radius: .5em;
+
+}
+#zoomAlertContent {
+    position: absolute;
+    top: 85px;
+    z-index: 1000;
+    left: 1.5em;
+    right: 1.5em;
+}
+#homeButton {
+    position: absolute;
+    top: 17px;
+    z-index: 1000;
+    opacity: 1;
+    left: 10px;
+}
+#markers {
+    position: absolute;
+    bottom: 70px;
+    right: 10px;
+    z-index: 1000;
+    background: #77B48B;
+    opacity: .7;
+}
+#locate {
+    position: absolute;
+    bottom: 110px;
+    right: 10px;
+    z-index: 1000;
+}
+#navigation .ui-btn-icon-notext {
+    display: block;
+    /*
+    padding: 7px 6px 7px 8px;
+    */
+}
+#title, #tags, #shortdesc {
+    display: none;
+}
+.ui-icon-check {
+    opacity: 0.3;
+}
+.ui-icon-markers {
+    background-image: url(../img/openlayers.png);
+}
+.ui-icon-locate {
+    background-image: url(../img/locate.png);
+}
+.checked .ui-icon-check {
+    opacity: 1;
+}
+.ui-content .ui-listview-inset {
+    margin: 1em;
+}
+.ui-content .ui-listview {
+    margin: 0;
+}
+.ui-loader-background {
+    width:100%;
+    height:100%;
+    top:0;
+    margin: 0;
+    background: rgba(0, 0, 0, 0.3);
+    display:none;
+    position: fixed;
+    z-index:1100;
+}
+
+.ui-loading .ui-loader-background {
+    display:block;
+}
+.ui-listview-filter-inset {
+    margin-top: 0;
+}
+#logoMain {
+    height: auto;
+    width:100%;
+}
+/*---------------------------------------------------------------------------------------------------------------------------------------------*/
+div.olControlZoom {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    background: rgba(255,255,255,0.4);
+    border-radius: 4px;
+    padding: 2px;
+}
+* {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+div.olControlZoom a {
+    display: block;
+    margin: 1px;
+    padding: 0;
+    color: white;
+    font-size: 28px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    height: 32px;
+    width: 32px;
+    line-height: 28px;
+    text-shadow: 0 0 3px rgba(0,0,0,0.8);
+    background: #130085; /* fallback for IE - IE6 requires background shorthand*/
+    background: rgba(0, 60, 136, 0.5);
+    filter: alpha(opacity=80);
+}
+a.olControlZoomIn {
+    border-radius: 4px 4px 0 0;
+}
+a.olControlZoomOut {
+    border-radius: 0 0 4px 4px;
+}
+div.olControlZoom a:hover {
+    background: #130085; /* fallback for IE */
+    background: rgba(0, 60, 136, 0.7);
+    filter: alpha(opacity=100);
+}
+@media only screen and (max-width: 600px) {
+    div.olControlZoom a:hover {
+        background: rgba(0, 60, 136, 0.5);
+    }
+}
+div.olMapViewport {
+    -ms-touch-action: none;
+}
+.olLayerGrid .olTileImage {
+    -webkit-transition: opacity 0.2s linear;
+    -moz-transition: opacity 0.2s linear;
+    -o-transition: opacity 0.2s linear;
+    transition: opacity 0.2s linear;
+}
+/* Turn on GPU support where available */
+.olTileImage {
+    -webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    -moz-perspective: 1000;
+    -ms-perspective: 1000;
+    perspective: 1000;
+}

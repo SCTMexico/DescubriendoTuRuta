@@ -1,0 +1,642 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d7461ba3-a7ad-4201-94b5-3673c4c54dd9" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.dialogs/src/ios/CDVNotification.bundle" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/res/Mappir_Store.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/web-puntos/a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mapa/mapa-puntos/a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mapa/mapa-puntos/puntos_intermedios/a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mapa/advertencia(1).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mapa/advertencia(2).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mapa/advertencia.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mappir iconos/mapa/advertencia.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/css/images/ajax-loader.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/icons/alerta.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/alertas.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.dialogs/src/android" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.dialogs/www/android" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.splashscreen/src/android" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/res/icon/android" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/res/screen/android" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/area-descanso(1).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mapa/area-descanso(1).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/area-descanso(2).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mapa/area-descanso(2).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/area-descanso.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mapa/area-descanso.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mappir iconos/layers/area-descanso.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mappir iconos/mapa/area-descanso.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/autobus(1).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mapa/autobus(1).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/autobus(2).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mapa/autobus(2).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/autobus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mapa/autobus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mappir iconos/mapa/autobus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/web-puntos/puntos_finales/b-v.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mapa/mapa-puntos/puntos_finales/b-v.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/web-puntos/puntos intermedios copia/b.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/web-puntos/puntos_intermedios/b.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mapa/mapa-puntos/puntos_intermedios/b.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/back-montanas.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/bahia-auxilio(1).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mapa/bahia-auxilio(1).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/bahia-auxilio(2).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mapa/bahia-auxilio(2).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/bahia-auxilio.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mapa/bahia-auxilio.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mappir iconos/layers/bahia-auxilio.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mappir iconos/mapa/bahia-auxilio.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.dialogs/src/ios/CDVNotification.bundle/beep.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.dialogs/src/blackberry10" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.dialogs/www/blackberry10" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.splashscreen/src/blackberry10" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/blueArrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/bridge.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/icons/buscar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/web-puntos/puntos_finales/c-v.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mapa/mapa-puntos/puntos_finales/c-v.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/web-puntos/puntos intermedios copia/c.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/web-puntos/puntos_intermedios/c.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mapa/mapa-puntos/puntos_intermedios/c.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mapa/capas(1).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mapa/capas.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mappir iconos/mapa/capas.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/car.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mapa/caseta(1).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/caseta-1(1).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mapa/caseta-1(1).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/caseta-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mapa/caseta-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/caseta-2(1).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mapa/caseta-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/icons/caseta.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/icons/caseta.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mapa/caseta.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mappir iconos/mapa/caseta.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/casetas(1).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/casetas.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mappir iconos/layers/casetas.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/web-puntos/puntos_intermedios/cerrar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/ciudad-turistica(1).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mapa/ciudad-turistica(1).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/ciudad-turistica(2).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mapa/ciudad-turistica(2).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/ciudad-turistica.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mapa/ciudad-turistica.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mappir iconos/layers/ciudad-turistica.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mappir iconos/mapa/ciudad-turistica.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/clima.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/com.phonegap.plugin.statusbar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/web-puntos/puntos_finales/d-v.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mapa/mapa-puntos/puntos_finales/d-v.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/web-puntos/puntos intermedios copia/d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/web-puntos/puntos_intermedios/d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mapa/mapa-puntos/puntos_intermedios/d.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.dialogs/www/firefoxos/danger-press.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.dialogs/www/firefoxos/danger.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/default.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.dialogs/www/firefoxos/default.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/indicaciones/derecha.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/indicaciones/derecho.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mappir iconos/web/destino.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.dialogs/doc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.splashscreen/doc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/res/drawable-hdpi" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/res/drawable-ldpi" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/res/drawable-mdpi" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/res/drawable-xhdpi" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/web-puntos/puntos_finales/e-v.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mapa/mapa-puntos/puntos_finales/e-v.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/web-puntos/puntos intermedios copia/e.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/web-puntos/puntos_intermedios/e.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mapa/mapa-puntos/puntos_intermedios/e.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/efectivo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/electronico.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/web-puntos/puntos_finales/f-v.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mapa/mapa-puntos/puntos_finales/f-v.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/web-puntos/puntos intermedios copia/f.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/web-puntos/puntos_intermedios/f.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mapa/mapa-puntos/puntos_intermedios/f.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/js/fastclick" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.dialogs/src/firefoxos" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.dialogs/www/firefoxos" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/flecha.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/web-puntos/puntos_finales/g-v.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mapa/mapa-puntos/puntos_finales/g-v.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/web-puntos/puntos intermedios copia/g.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/web-puntos/puntos_intermedios/g.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mapa/mapa-puntos/puntos_intermedios/g.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/gas.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mappir iconos/web/gasolina.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mappir iconos/layers/gasolinera.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/gasolineria(1).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mapa/gasolineria(1).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/gasolineria(2).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mapa/gasolineria(2).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/gasolineria.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mapa/gasolineria.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mappir iconos/mapa/gasolineria.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.dialogs/www/firefoxos/gradient.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mapa/grua(1).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/grua(2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/grua.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mapa/grua.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mappir iconos/web/guardadas.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/home(1).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/home.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/home.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/res/icon/android/icon-36-ldpi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/res/icon/android/icon-48-mdpi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/res/icon/ios/icon-57-2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/res/icon/ios/icon-57.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/res/icon/ios/icon-72-2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/res/icon/android/icon-72-hdpi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/res/icon/ios/icon-72.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/res/icon/android/icon-96-xhdpi.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/res/icon" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/css/images/icons-18-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/css/images/icons-18-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/css/images/icons-36-black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/css/images/icons-36-white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/icons" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/css/images" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/indicaciones-amarillo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/indicaciones-verde.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/indicaciones.gris.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/indicaciones.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/indicaciones" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mapa/inicio(1).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mapa/inicio.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mappir iconos/mapa/inicio.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/com.phonegap.plugin.statusbar/src/ios" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.dialogs/src/ios" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.splashscreen/src/ios" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/res/icon/ios" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/res/screen/ios" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/indicaciones/izquierda.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/js/jquery" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mappir iconos/layers" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/indicaciones/lig-derecha.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/indicaciones/lig-izquierda.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/load.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/load24.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/locate.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/location-map.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/logoSCT_hoz.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/logoVert.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mapa/mapa-puntos" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mapa" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mappir iconos/mapa" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mappir iconos" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mas.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/menu.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/menu_accidente.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/menu_acerca-de.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/menu_auto.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/menu_buscar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/menu_guardado.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/menu_tel.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/money.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/moto.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mundo-amarillo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mundo-gris.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mundo-verde.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mundo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/museo(1).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mapa/museo(1).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/museo(2).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mapa/museo(2).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/museo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mapa/museo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mappir iconos/layers/museo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mappir iconos/mapa/museo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.dialogs/src/wp/notification-beep.wav" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/openlayers.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/js/openlayers" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.device" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.dialogs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.geolocation" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.network-information" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.splashscreen" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mappir iconos/layers/parada-autobus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/patrimonio(1).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mapa/patrimonio(1).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/patrimonio(2).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mapa/patrimonio(2).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/patrimonio.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mapa/patrimonio.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mappir iconos/layers/patrimonio.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mappir iconos/mapa/patrimonio.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.dialogs/www/firefoxos/pattern.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/playa(1).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mapa/playa(1).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/playa(2).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mapa/playa(2).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/playa.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mapa/playa.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mappir iconos/layers/playa.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mappir iconos/mapa/playa.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mappir iconos/web/populares.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/pueblo-magico(1).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mapa/pueblo-magico(1).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/pueblo-magico(2).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mapa/pueblo-magico(2).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/pueblo-magico.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mapa/pueblo-magico.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mappir iconos/layers/pueblo-magico.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mappir iconos/mapa/pueblo-magico.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/web-puntos/puntos intermedios copia" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/web-puntos/puntos_finales" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mapa/mapa-puntos/puntos_finales" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/web-puntos/puntos_intermedios" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mapa/mapa-puntos/puntos_intermedios" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.dialogs/www/firefoxos/recommend.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mappir iconos/web/rendimiento.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/res" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/restaurant(1).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mapa/restaurant(1).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/restaurant(2).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mapa/restaurant(2).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/restaurant.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mapa/restaurant.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mappir iconos/mapa/restaurant.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mappir iconos/layers/restaurante.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/restaurar(1).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mapa/restaurar(1).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/restaurar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mapa/restaurar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mappir iconos/layers/restaurar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mappir iconos/mapa/restaurar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/res/screen/android/screen-hdpi-landscape.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/res/screen/android/screen-hdpi-portrait.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/res/screen/ios/screen-ipad-landscape-2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/res/screen/ios/screen-ipad-landscape.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/res/screen/ios/screen-ipad-portrait-2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/res/screen/ios/screen-ipad-portrait.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/res/screen/ios/screen-iphone-landscape-2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/res/screen/ios/screen-iphone-landscape.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/res/screen/ios/screen-iphone-portrait-2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/res/screen/ios/screen-iphone-portrait-568h-2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/res/screen/ios/screen-iphone-portrait.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/res/screen/android/screen-ldpi-landscape.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/res/screen/android/screen-ldpi-portrait.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/res/screen/android/screen-mdpi-landscape.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/res/screen/android/screen-mdpi-portrait.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/res/screen-shoot.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/res/screen/android/screen-xhdpi-landscape.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/res/screen/android/screen-xhdpi-portrait.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/res/screen" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/sep-bar.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/servicio-medico(1).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mapa/servicio-medico(1).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/servicio-medico(2).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mapa/servicio-medico(2).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/servicio-medico.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mapa/servicio-medico.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mappir iconos/layers/servicio-medico.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mappir iconos/mapa/servicio-medico.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/showHide.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mappir iconos/layers/sitio-arqueologico.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/smallHearth.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/smallPin.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/smallReport.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/smallShare.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/smallWarning.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/res/drawable-hdpi/splash.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/res/drawable-ldpi/splash.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/res/drawable-mdpi/splash.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/res/drawable-xhdpi/splash.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/com.phonegap.plugin.statusbar/src" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.dialogs/src" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.splashscreen/src" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/switch.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/taller(1).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mapa/taller(1).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/taller(2).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mapa/taller(2).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/taller.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mapa/taller.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mappir iconos/layers/taller.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mappir iconos/mapa/taller.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/tc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/tienda(1).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mapa/tienda(1).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/tienda(2).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mapa/tienda(2).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/tienda.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mapa/tienda.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mappir iconos/mapa/tienda.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mappir iconos/layers/tiendas.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/toll.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/truck.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.dialogs/src/ubuntu" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.splashscreen/src/ubuntu" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mappir iconos/web/vehiculo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/warning.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/warningMap.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/web-puntos" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mappir iconos/web" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.dialogs/src/windows8" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.splashscreen/www/windows8" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/world.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.dialogs/src/wp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.splashscreen/src/wp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/com.phonegap.plugin.statusbar/www" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.device/www" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.dialogs/www" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.geolocation/www" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.network-information/www" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.splashscreen/www" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/zona-arqueologica(1).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mapa/zona-arqueologica(1).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/zona-arqueologica(2).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mapa/zona-arqueologica(2).png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/layers/zona-arqueologica.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mapa/zona-arqueologica.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/img/mappir iconos/mapa/zona-arqueologica.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/com.phonegap.plugin.statusbar/.fetch.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.dialogs/.fetch.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.splashscreen/.fetch.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.dialogs/src/ios/CDVNotification.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.dialogs/src/ios/CDVNotification.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.splashscreen/src/ios/CDVSplashScreen.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.splashscreen/src/ios/CDVSplashScreen.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/com.phonegap.plugin.statusbar/src/ios/CDVStatusBar.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/com.phonegap.plugin.statusbar/src/ios/CDVStatusBar.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.network-information/www/Connection.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.geolocation/www/Coordinates.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.dialogs/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.splashscreen/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.dialogs/src/wp/Notification.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.dialogs/src/android/Notification.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.dialogs/src/wp/NotificationBox.xaml.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.dialogs/src/wp/NotificationBox.xaml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.dialogs/src/windows8/NotificationProxy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/js/openlayers/OpenLayers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/js/openlayers/OpenLayers.mobile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.geolocation/www/Position.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.geolocation/www/PositionError.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/com.phonegap.plugin.statusbar/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.dialogs/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.splashscreen/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.dialogs/RELEASENOTES.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.splashscreen/RELEASENOTES.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.splashscreen/src/wp/SplashScreen.cs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.splashscreen/src/android/SplashScreen.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.splashscreen/www/windows8/SplashScreenProxy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/js/about.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.dialogs/www/blackberry10/beep.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/js/commonFunctions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/res/config.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/config.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/js/details.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.device/www/device.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/js/editLayers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/js/fastclick/fastclick.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.geolocation/www/geolocation.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/css/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.dialogs/src/blackberry10/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.splashscreen/src/blackberry10/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.dialogs/doc/index.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.splashscreen/doc/index.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/js/initSetup.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/js/jquery/jquery-1.9.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/css/jquery.mobile-1.3.2.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/js/jquery/jquery.mobile-1.3.2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/js/loadSetup.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/js/mapBase.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.network-information/www/network.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.dialogs/src/ubuntu/notification.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.dialogs/www/firefoxos/notification.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.dialogs/src/ubuntu/notification.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.dialogs/src/firefoxos/notification.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.dialogs/www/notification.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.dialogs/www/android/notification.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.dialogs/src/ubuntu/notification.qml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/js/onConfigReady.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/js/onMapCalls.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/js/phone.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/com.phonegap.plugin.statusbar/plugin.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.dialogs/plugin.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.splashscreen/plugin.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/js/report.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/js/routeConfig.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/js/savedRoutes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.splashscreen/src/ubuntu/splashscreen.cpp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.splashscreen/src/ubuntu/splashscreen.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/org.apache.cordova.splashscreen/www/splashscreen.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/plugins/com.phonegap.plugin.statusbar/www/statusbar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/js/temp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/js/variables.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/movil/js/vehicleConfig.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
+    <ignored path="MappirWeb.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="MappirWeb" />
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="784" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MappirWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MappirWeb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebContent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="true" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <configuration useDefault="true">C:\Users\Desarrollo\AppData\Roaming\Subversion</configuration>
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\MappirWeb\WebContent" />
+          <option name="myCopyRoot" value="C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\MappirWeb\WebContent" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\MappirWeb\WebContent\.idea" />
+          <option name="myCopyRoot" value="C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\MappirWeb\WebContent\.idea" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\MappirWeb\WebContent" />
+          <option name="myCopyRoot" value="C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\MappirWeb\WebContent\movil" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\MappirWeb\WebContent" />
+          <option name="myCopyRoot" value="C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\MappirWeb\WebContent" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\MappirWeb\WebContent" />
+          <option name="myCopyRoot" value="C:\Program Files (x86)\EasyPHP-DevServer-13.1VC9\data\localweb\MappirWeb\WebContent\movil" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d7461ba3-a7ad-4201-94b5-3673c4c54dd9" name="Default" comment="" />
+      <created>1403121650274</created>
+      <updated>1403121650274</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="SVN Repositories" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32923076" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24963397" sideWeight="0.6707692" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+</project>
+

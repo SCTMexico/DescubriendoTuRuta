@@ -1,0 +1,55 @@
+.olControlZoom a {
+    background: none repeat scroll 0 0 rgba(0, 133, 61 0.5);
+    color: #FFFFFF;
+    display: block;
+    font-family: 'Lucida Grande', Verdana, Geneva, Lucida, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    height: 22px;
+    line-height: 19px;
+    margin: 1px;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+    width: 22px;
+}
+
+.olControlZoom a:hover {
+    background: none repeat scroll 0 0 rgba(0, 133, 61, 0.698);
+}
+
+
+.olControlLayerSwitcher .minimizeDiv {
+    width: 40px;
+    top: -4px;
+    right: 0;
+    cursor: pointer;
+}
+
+.olSctRestaurar {
+    position: absolute;
+    top: 55px;
+    left: 0;
+    width: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 3px;
+    margin-left: 3px;
+    margin-bottom: 3px;
+    font-size: smaller;
+    color: white;
+    background-color: transparent;
+    -webkit-border-top-left-radius: 10px;
+    -webkit-border-bottom-left-radius: 10px;
+    -moz-border-radius-topleft: 10px;
+    -moz-border-radius-bottomleft: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+/**
+spinner del loading en el autocomplete
+*/
+.ui-autocomplete-loading  {
+    background: white url('../images/sct/load.gif') no-repeat right center !important;
+}

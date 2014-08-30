@@ -1,19 +1,20 @@
-INTRODUCCI”N
-El siguiente documento presenta ejemplos de cÛmo invocar los servicios web a travÈs de llamadas AJAX.
-WEB SERVICES
-Existen los siguientes servicios en listados a continuaciÛn.
-*	GeoRouteSvt. Encapsula operaciones para la generaciÛn de una ruta entre dos ubicaciones 
-indicadas.
-*	GeoSearchLocation. Encapsula operaciones para la b˙squeda de direcciones, lugares o puntos de 
-interÈs que funcionaran como puntos de inicio y final para el servicio GeoRouteSvt.
-*	GeoValidateSvt. Brinda la capacidad de validar si a una coordenada indicada, se le puede asignar 
-un tramo de carretera. A travÈs de este se obtiene informaciÛn cartogr·fica para la generaciÛn de 
-casetas y alertas del aplicativo MAPPIR.
-*	ReverseGeocodeSvt. Obtiene la direcciÛn de una coordenada especÌfica.
-A continuaciÛn se detallada cada servicio.
-EJEMPLO DE INVOCACI”N
+# INTRODUCCI√ìN
 
-GEOROUTESVT
+El siguiente documento presenta ejemplos de c√≥mo invocar los servicios web a trav√©s de llamadas AJAX.
+WEB SERVICES
+Existen los siguientes servicios en listados a continuaci√≥n.
+*	GeoRouteSvt. Encapsula operaciones para la generaci√≥n de una ruta entre dos ubicaciones 
+indicadas.
+*	GeoSearchLocation. Encapsula operaciones para la b√∫squeda de direcciones, lugares o puntos de 
+inter√©s que funcionaran como puntos de inicio y final para el servicio GeoRouteSvt.
+*	GeoValidateSvt. Brinda la capacidad de validar si a una coordenada indicada, se le puede asignar 
+un tramo de carretera. A trav√©s de este se obtiene informaci√≥n cartogr√°fica para la generaci√≥n de 
+casetas y alertas del aplicativo MAPPIR.
+*	ReverseGeocodeSvt. Obtiene la direcci√≥n de una coordenada espec√≠fica.
+A continuaci√≥n se detallada cada servicio.
+## EJEMPLO DE INVOCACI√ìN
+
+# GEOROUTESVT
 Ruta: GeoRouteSvt
 var origen, destinos, opciones, vehiculo;
 
@@ -22,7 +23,7 @@ origen = {
 	"y" : 19.3087,
 	"source" : -1,
 	"target" : -1,
-	"desc" : "Insurgentes Sur, Insurgentes Cuicuilco, Coyoac·n, Coyoac·n, Distrito Federal",
+	"desc" : "Insurgentes Sur, Insurgentes Cuicuilco, Coyoac√°n, Coyoac√°n, Distrito Federal",
 	"idTramo" : 1,
 	"idCategoria" : "A-9"
 };
@@ -32,7 +33,7 @@ destinos = [ {
 	"y" : 20.589804,
 	"source" : 756319,
 	"target" : 750929,
-	"desc" : "QuerÈtaro",
+	"desc" : "Quer√©taro",
 	"idTramo" : 3086642,
 	"idCategoria" : "A-1"
 	}, {
@@ -63,7 +64,7 @@ $.ajax({
 	type : 'POST',
 	url : 'http://www.mappir.gob.mx/TTR/rest/GeoRouteSvt',
 	data : {
-		ìjsonî : JSON.stringify({
+		‚Äújson‚Äù : JSON.stringify({
 			"usr" : "sct",
 			"key" : "sct",
 			"origen" : origen,
@@ -84,13 +85,13 @@ $.ajax({
 		}
 	}
 });
-Ruta: GeoRouteSvt/last
+### Ruta: GeoRouteSvt/last
 $.ajax({
 	type : 'POST',
 	url : 'http://www.mappor.gob.mx/TTR/rest/GeoRouteSvt/last',
 	data : {
-		"usr" : ìsctî,
-		"key" : ìsctî,
+		"usr" : ‚Äúsct‚Äù,
+		"key" : ‚Äúsct‚Äù,
 		"limit" : 10
 	},
 	dataType : 'jsonp',
@@ -104,13 +105,13 @@ $.ajax({
 	}
 });
 
-Ruta: GeoRouteSvt/top
+### Ruta: GeoRouteSvt/top
 $.ajax({
 	type : 'POST',
 	url : 'http://www.mappor.gob.mx/TTR/rest/GeoRouteSvt/top',
 	data : {
-		"usr" : ìsctî,
-		"key" : ìsctî,
+		"usr" : ‚Äúsct‚Äù,
+		"key" : ‚Äúsct‚Äù,
 		"limit" : 10
 	},
 	dataType : 'jsonp',
@@ -123,15 +124,15 @@ $.ajax({
 		}
 	}
 });
-GEOSEARCHLOCATIONSVT
+## GEOSEARCHLOCATIONSVT
 Ruta: GeoSearchLocationSvt
 $.ajax({
 	type : 'POST',
 	url : 'http://www.mappor.gob.mx/TTR/rest/GeoSearchLocationSvt',
 	data : {
-		"search" : ìQueretaroî,
-		"usr" : ìsctî,
-		"key" : ìsctî
+		"search" : ‚ÄúQueretaro‚Äù,
+		"usr" : ‚Äúsct‚Äù,
+		"key" : ‚Äúsct‚Äù
 	},
 	dataType : 'jsonp',
 	success : function(resp) {
@@ -143,14 +144,14 @@ $.ajax({
 		}
 	}
 });
-GEOVALIDATESVT
+## GEOVALIDATESVT
 Ruta: GeoValidateSvt
 $.ajax({
 	type : 'POST',
 	url : 'http://www.mappor.gob.mx/TTR/rest/GeoValidateSvt',
 	data : {	
-		"usr" : ìsctî,
-		"key" : ìsctî,
+		"usr" : ‚Äúsct‚Äù,
+		"key" : ‚Äúsct‚Äù,
 		"x" : -103.335,
 		"y" : 20.6782
 	},
@@ -164,14 +165,14 @@ $.ajax({
 		}
 	}
 });
-REVERSEGEOCODESVT
+### REVERSEGEOCODESVT
 Ruta: ReverseGeocodeSvt
 $.ajax({
 	type : 'POST',
 	url : 'http://www.mappor.gob.mx/TTR/rest/ReverseGeocodeSvt',
 	data : {	
-		"usr" : ìsctî,
-		"key" : ìsctî,
+		"usr" : ‚Äúsct‚Äù,
+		"key" : ‚Äúsct‚Äù,
 		"x" : -103.335,
 		"y" : 20.6782
 	},
@@ -196,23 +197,23 @@ http://ttr.sct.gob.mx/TTR/rest/GeoRouteSvt/top?usr=sct&key=sct&limit=10
 
 
 
-øCOMO HACER UNA BUSQUEDA DE UBICACION?
+### ¬øCOMO HACER UNA BUSQUEDA DE UBICACION?
 
 
-Ejemplo de ruta desde MÈxico D.F hacia Cancun , con el tipo de ruta 1
+Ejemplo de ruta desde M√©xico D.F hacia Cancun , con el tipo de ruta 1
 http://ttr.sct.gob.mx/TTR/rest/GeoRouteSvt?json={"usr":"sct","key":"sct","origen":{"idCategoria":"A-
 1","desc":"Distrito Federal","idTramo":90465,"source":1483257,"target":1483284,"x":-
-99.133969,"y":19.432529},"destinos":[{"idCategoria":"A-3","desc":"Canc˙n, Benito Ju·rez, Quintana 
+99.133969,"y":19.432529},"destinos":[{"idCategoria":"A-3","desc":"Canc√∫n, Benito Ju√°rez, Quintana 
 Roo","idTramo":86657,"source":1968475,"target":1609241,"x":-
 86.8559,"y":21.1214}],"opciones":{"casetas":true,"alertas":true},"vehiculo":{"tipo":1,"subtipo":1,"r
 endimiento":16,"combustible":1,"costoltgas":"12.60","excedente":"0"},"ruta":1}
 
 
 
-Ejemplo de ruta desde MÈxico D.F hacia Cancun , con el tipo de ruta 2
+Ejemplo de ruta desde M√©xico D.F hacia Cancun , con el tipo de ruta 2
 http://ttr.sct.gob.mx/TTR/rest/GeoRouteSvt?json={"usr":"sct","key":"sct","origen":{"idCategoria":"A-
 1","desc":"Distrito Federal","idTramo":90465,"source":1483257,"target":1483284,"x":-
-99.133969,"y":19.432529},"destinos":[{"idCategoria":"A-3","desc":"Canc˙n, Benito Ju·rez, Quintana 
+99.133969,"y":19.432529},"destinos":[{"idCategoria":"A-3","desc":"Canc√∫n, Benito Ju√°rez, Quintana 
 Roo","idTramo":86657,"source":1968475,"target":1609241,"x":-
 86.8559,"y":21.1214}],"opciones":{"casetas":true,"alertas":true},"vehiculo":{"tipo":1,"subtipo":1,"r
 endimiento":16,"combustible":1,"costoltgas":"12.60","excedente":"0"},"ruta":2}

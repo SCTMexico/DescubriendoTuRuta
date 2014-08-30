@@ -14,8 +14,10 @@ casetas y alertas del aplicativo MAPPIR.
 A continuación se detallada cada servicio.
 ## EJEMPLO DE INVOCACIÓN
 
-# GEOROUTESVT
-Ruta: GeoRouteSvt
+## GEOROUTESVT
+
+### Ruta: GeoRouteSvt
+<pre><code>
 var origen, destinos, opciones, vehiculo;
 
 origen = {
@@ -85,7 +87,10 @@ $.ajax({
 		}
 	}
 });
+</code></pre>
+
 ### Ruta: GeoRouteSvt/last
+<pre><code>
 $.ajax({
 	type : 'POST',
 	url : 'http://www.mappor.gob.mx/TTR/rest/GeoRouteSvt/last',
@@ -104,8 +109,9 @@ $.ajax({
 		}
 	}
 });
-
+</code></pre>
 ### Ruta: GeoRouteSvt/top
+<pre><code>
 $.ajax({
 	type : 'POST',
 	url : 'http://www.mappor.gob.mx/TTR/rest/GeoRouteSvt/top',
@@ -124,8 +130,11 @@ $.ajax({
 		}
 	}
 });
+</code></pre>
+
 ## GEOSEARCHLOCATIONSVT
-Ruta: GeoSearchLocationSvt
+### Ruta: GeoSearchLocationSvt
+<pre><code>
 $.ajax({
 	type : 'POST',
 	url : 'http://www.mappor.gob.mx/TTR/rest/GeoSearchLocationSvt',
@@ -144,8 +153,10 @@ $.ajax({
 		}
 	}
 });
+</code></pre>
 ## GEOVALIDATESVT
-Ruta: GeoValidateSvt
+### Ruta: GeoValidateSvt
+<pre><code>
 $.ajax({
 	type : 'POST',
 	url : 'http://www.mappor.gob.mx/TTR/rest/GeoValidateSvt',
@@ -165,8 +176,10 @@ $.ajax({
 		}
 	}
 });
-### REVERSEGEOCODESVT
-Ruta: ReverseGeocodeSvt
+</code></pre>
+## REVERSEGEOCODESVT
+### Ruta: ReverseGeocodeSvt
+<pre><code>
 $.ajax({
 	type : 'POST',
 	url : 'http://www.mappor.gob.mx/TTR/rest/ReverseGeocodeSvt',
@@ -186,14 +199,14 @@ $.ajax({
 		}
 	}
 });
+</code></pre>
 
 
-
-http://ttr.sct.gob.mx/TTR/rest/GeoSearchLocationSvt?search=df&usr=sct&key=sct
+<http://ttr.sct.gob.mx/TTR/rest/GeoSearchLocationSvt?search=df&usr=sct&key=sct>
 Los resultados de esta busqueda se utilizan para el servicio de ruteo
 
 Servicio que obtiene las rutas mas buscadas
-http://ttr.sct.gob.mx/TTR/rest/GeoRouteSvt/top?usr=sct&key=sct&limit=10
+<http://ttr.sct.gob.mx/TTR/rest/GeoRouteSvt/top?usr=sct&key=sct&limit=10>
 
 
 
@@ -201,20 +214,22 @@ http://ttr.sct.gob.mx/TTR/rest/GeoRouteSvt/top?usr=sct&key=sct&limit=10
 
 
 Ejemplo de ruta desde México D.F hacia Cancun , con el tipo de ruta 1
+<pre><code>
 http://ttr.sct.gob.mx/TTR/rest/GeoRouteSvt?json={"usr":"sct","key":"sct","origen":{"idCategoria":"A-
 1","desc":"Distrito Federal","idTramo":90465,"source":1483257,"target":1483284,"x":-
 99.133969,"y":19.432529},"destinos":[{"idCategoria":"A-3","desc":"Cancún, Benito Juárez, Quintana 
 Roo","idTramo":86657,"source":1968475,"target":1609241,"x":-
 86.8559,"y":21.1214}],"opciones":{"casetas":true,"alertas":true},"vehiculo":{"tipo":1,"subtipo":1,"r
 endimiento":16,"combustible":1,"costoltgas":"12.60","excedente":"0"},"ruta":1}
-
+</code></pre>
 
 
 Ejemplo de ruta desde México D.F hacia Cancun , con el tipo de ruta 2
+<pre><code>
 http://ttr.sct.gob.mx/TTR/rest/GeoRouteSvt?json={"usr":"sct","key":"sct","origen":{"idCategoria":"A-
 1","desc":"Distrito Federal","idTramo":90465,"source":1483257,"target":1483284,"x":-
 99.133969,"y":19.432529},"destinos":[{"idCategoria":"A-3","desc":"Cancún, Benito Juárez, Quintana 
 Roo","idTramo":86657,"source":1968475,"target":1609241,"x":-
 86.8559,"y":21.1214}],"opciones":{"casetas":true,"alertas":true},"vehiculo":{"tipo":1,"subtipo":1,"r
 endimiento":16,"combustible":1,"costoltgas":"12.60","excedente":"0"},"ruta":2}
-
+</code></pre>
